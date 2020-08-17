@@ -10,3 +10,13 @@ body{
   padding: 0;
   background-color: $color-set1-light;
 }
+
+.svgIcons{
+  font-family: $font-alternative;
+  font-size: 10px;
+  color: $color-set1-dark;
+  a{
+    color: $color-set1-dark;
+    text-decoration: underline;
+  }
+}
