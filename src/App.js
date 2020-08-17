@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.scss';
+import './scss/main.scss';
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Portfolio
-        </h1>
-      </header>
-    </div>
+    <Router>
+        <Switch>
+            <Route exact path='/' component={Home} />
+        </Switch>
+    </Router>
   );
 }
 

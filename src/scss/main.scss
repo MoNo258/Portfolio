@@ -1,0 +1,12 @@
+@import "./generic/reset";
+@import "./settings/variables";
+
+
+
+body{
+  font-family: $font-main;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: $color-set1-light;
+}
