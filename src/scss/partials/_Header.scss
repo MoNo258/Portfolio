@@ -11,9 +11,15 @@
     background-color: $color-set1-dark !important;
   }
   .header__brand{
-    color: $color-set1-color;
+    font-weight: 700;
+    font-size: 25px;
+    background: linear-gradient(to right, $color-set1-color, darken($color-set1-color, 10%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     &:hover{
-      color: darken($color-set1-color, 20%)
+      background: linear-gradient(to right, darken($color-set1-color, 10%), darken($color-set1-color, 20%));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
   .header__button{}
@@ -36,5 +42,10 @@
   }
 }
 
+@media (max-width: 768px) {
+  .header__brand {
+    font-size: 22px !important;
+  }
+}
 
 
