@@ -1,1 +1,40 @@
+@use "sass:color";
 @import "../settings/variables";
+
+.header{
+  width: 100%;
+  .header__navbar{
+    width: 100%;
+    background-color: $color-set1-dark !important;
+  }
+  .bg-dark{
+    background-color: $color-set1-dark !important;
+  }
+  .header__brand{
+    color: $color-set1-color;
+    &:hover{
+      color: darken($color-set1-color, 20%)
+    }
+  }
+  .header__button{}
+  .header__list{
+    width: 100%;
+  }
+  .header__list--ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .show{
+    //text-align: end;
+  }
+  .header__item{}
+  .header__link{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+
+

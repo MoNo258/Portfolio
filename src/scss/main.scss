@@ -1,5 +1,11 @@
 @import "./generic/reset";
 @import "./settings/variables";
+@import "./partials/Header";
+@import "./partials/HeroHome";
+@import "./partials/Project";
+@import "./partials/Contact";
+@import "./partials/Footer";
+
 
 
 
@@ -11,7 +17,7 @@ body{
   background-color: $color-set1-light;
 }
 
-.svgIcons{
+.svgIconsInfo{
   font-family: $font-alternative;
   font-size: 10px;
   color: $color-set1-dark;
