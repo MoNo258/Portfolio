@@ -1,1 +1,69 @@
+@use 'sass:color';
 @import "../settings/variables";
+
+.heroHome{
+  height: 100vh;
+  position: relative;
+  &:before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: $color-set1-light;
+    opacity: 50% ;
+  }
+  .hero__container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero__background{
+    height: 100%;
+  }
+  .hero__image{
+    height: 100%;
+    background-position: center;
+  }
+  .hero__header{
+    color: $color-set1-dark;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    span:nth-of-type(2){
+      margin: 20px;
+    }
+  }
+  .hero__button{
+    font-family: $font-alternative;
+    font-weight: 700;
+    z-index: 1;
+    padding: 10px 10px;
+    border: solid 3px darken($color-set1-color, 10%);
+    border-radius: 15px;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .hero__link{}
+}
+
+@media (max-width: 768px) {
+  .hero__header{
+    font-size: 25px !important;
+    line-height: 31px !important;
+  }
+  //.hero__button{
+  //  font-weight: 700;
+  //  padding: 10px 10px;
+  //  border: solid 3px darken($color-set1-color, 10%);
+  //  border-radius: 15px;
+  //}
+}

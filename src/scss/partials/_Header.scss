@@ -13,11 +13,15 @@
   .header__brand{
     font-weight: 700;
     font-size: 25px;
-    background: linear-gradient(to right, $color-set1-color, darken($color-set1-color, 10%));
+    background: linear-gradient(to right,
+            $color-set1-color,
+            darken($color-set1-color, 10%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     &:hover{
-      background: linear-gradient(to right, darken($color-set1-color, 10%), darken($color-set1-color, 20%));
+      background: linear-gradient(to right,
+              darken($color-set1-color, 5%),
+              darken($color-set1-color, 15%));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
