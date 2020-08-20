@@ -1,78 +1,11 @@
-@use 'sass:color';
 @import "../settings/variables";
 
 .projects {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   .projects__container {}
-  .projects__row {
+  .project__cardDeck{
     justify-content: center;
     align-items: center;
-  }
-  .projects__col {}
-  .project__card {
-    margin: 10px;
-    background-color: lighten($color-set1-light, 10%);
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid darken($color-set1-color, 10%);
-  }
-  .card__container {
-    border: 1px solid darken($color-set1-color, 10%);
-    margin: 0;
-    padding: 0;
-    border-radius: 0.25rem;
-    background-color: $color-set1-light;
-  }
-  .card__image {
-    border: none;
-    margin: 0;
-    padding: 0;
-  }
-  .card__body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: none;
-    margin: 0;
-  }
-  .card__title {
-    text-align: center;
-    font-weight: 700;
-    line-height: 1.5;
-  }
-  .card__text {
-    font-family: $font-alternative;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-  }
-  .card__btn {
-    font-family: $font-alternative;
-    text-align: center;
-    font-weight: 600;
-    background: $color-set1-dark;
-    border-color: $color-set1-dark;
-    color: lighten($color-set1-light, 20%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .button__image {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-      fill: $color-set1-color;
-    }
-    &:hover {
-      color: $color-set1-light;
-      background: darken($color-set1-dark, 20%);
-      .button__image {
-        fill: darken($color-set1-color, 10%);
-      }
-    }
   }
 }

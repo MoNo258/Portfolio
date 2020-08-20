@@ -30,13 +30,13 @@ const Header = () => {
                     <ul className='navbar-nav mr-auto header__list--ul'>
                         <li className='nav-item header__item'>
                             <LinkScroll to='heroHome' className='nav-link header__link'
-                                        spy={true} smooth={true} offset={0} duration={500}>
+                                        spy={true} smooth={true} offset={0} duration={250}>
                                 Start
                             </LinkScroll>
                         </li>
                         <li className='nav-item  header__item'>
                             <LinkScroll to='projects' className='nav-link header__link'
-                                        spy={true} smooth={true} offset={0} duration={500}>
+                                        spy={true} smooth={true} offset={-50} duration={500}>
                                 Projects
                             </LinkScroll>
                         </li>
