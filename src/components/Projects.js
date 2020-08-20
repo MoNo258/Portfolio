@@ -1,6 +1,7 @@
 import React from "react";
 import image from '../assets/tree_fog.jpg'
 import {Link} from "react-router-dom";
+import {ReactComponent as Icon} from '../assets/rocket.svg';
 
 const Projects = ({id}) => {
     return (
@@ -18,9 +19,8 @@ const Projects = ({id}) => {
                                     <p className='card__text card-text'>
                                         Projects that displays exchange rates taken from API
                                     </p>
-                                    <Link to='/project' className='card__btn btn btn-dark'
-                                        // onClick={}
-                                    >
+                                    <Link to='/project' className='card__btn btn btn-dark' >
+                                        <Icon className='button__image' />
                                         Details
                                     </Link>
                                 </div>
@@ -38,9 +38,8 @@ const Projects = ({id}) => {
                                     <p className='card__text card-text'>
                                         Projects that displays exchange rates taken from API
                                     </p>
-                                    <Link to='/project' className='card__btn btn btn-dark'
-                                        // onClick={}
-                                    >
+                                    <Link to='/project' className='card__btn btn btn-dark' >
+                                        <Icon className='button__image' />
                                         Details
                                     </Link>
                                 </div>
@@ -58,9 +57,8 @@ const Projects = ({id}) => {
                                     <p className='card__text card-text'>
                                         Projects that displays exchange rates taken from API
                                     </p>
-                                    <Link to='/project' className='card__btn btn btn-dark'
-                                        // onClick={}
-                                    >
+                                    <Link to='/project' className='card__btn btn btn-dark' >
+                                        <Icon className='button__image' />
                                         Details
                                     </Link>
                                 </div>
