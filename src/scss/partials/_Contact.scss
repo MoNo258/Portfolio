@@ -18,6 +18,7 @@
   .contact__card {
     background-color: $color-set1-light;
     margin-bottom: 10px;
+    border: 1px solid darken($color-set1-color, 10%);
   }
   .contact__card--left {}
   .card__header {}
@@ -205,5 +206,36 @@
     span {
       font-size: 22px;
     }
+  }
+}
+@media (max-width: 375px) {
+  .card__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    span{
+      display: block;
+    }
+    svg{
+      display: flex;
+      margin-bottom: 10px;
+    }
+    .copy-info{
+      text-align: start;
+    }
+  }
+  .form__group--attachmentNew{
+    display: flex;
+    flex-direction: column;
+  }
+  .form__imageAttachment{
+    //left: 0;
+    align-self: flex-start;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .form__button{
+    margin-top: 40px!important;
   }
 }

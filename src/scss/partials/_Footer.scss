@@ -1,1 +1,42 @@
 @import "../settings/variables";
+
+.footer{
+  width: 100%;
+  font-family: $font-alternative;
+  color: $color-set1-light;
+  .footer__navbar{
+    width: 100%;
+    background-color: $color-set1-dark !important;
+  }
+  .bg-dark {
+    background-color: $color-set1-dark !important;
+  }
+  .footer__list--ul{}
+  .footer__item{}
+  .footer__link{}
+
+  .footer__icon{
+    width: 20px;
+    height: 20px;
+    fill: darken($color-set1-color, 00%);
+    &:hover{
+      fill: darken($color-set1-color, 10%);
+    }
+  }
+  .footer__copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .footer__icon--linkedin{}
+  .footer__icon--github{}
+}
+
+@media (max-width: 415px) {
+  .footer {
+    .footer__navbar {
+      justify-content: center;
+    }
+  }
+}

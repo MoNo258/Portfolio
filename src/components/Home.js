@@ -13,7 +13,7 @@ const Home = () => {
             <HeroHome id='heroHome' />
             <Projects id='projects' />
             <Contact id='contact' />
-            {/*<Footer id='footer' />*/}
+            <Footer id='footer' />
             {/*<div className='svgIconsInfo'>*/}
             {/*    Icons made by <span>Dave Gandy</span> from*/}
             {/*    <a target='_blank' rel='noopener noreferrer' href='https://www.flaticon.com/' title='Flaticon'>*/}
