@@ -35,6 +35,18 @@
     }
   }
   .button__image {}
+  .card__link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card__link-href{
+    color: $color-set1-dark;
+    text-transform: none;
+    text-decoration: none;
+    position: absolute;
+    padding-left: 30px;
+  }
   .contact__card--right {}
   .card__body--right {}
   .success-message {
@@ -203,7 +215,8 @@
     font-size: 20px;
   }
   .card__text {
-    span {
+    span,
+    .card__link-href{
       font-size: 22px;
     }
   }
@@ -224,13 +237,20 @@
     .copy-info{
       text-align: start;
     }
+    .card__link{
+      display: block;
+    }
+    .card__link-href{
+      padding-left: 0px;
+      padding-top: 30px;
+      position: relative;
+    }
   }
   .form__group--attachmentNew{
     display: flex;
     flex-direction: column;
   }
   .form__imageAttachment{
-    //left: 0;
     align-self: flex-start;
     margin-left: 0;
     margin-top: 5px;

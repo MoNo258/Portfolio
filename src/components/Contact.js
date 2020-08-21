@@ -3,6 +3,7 @@ import {ReactComponent as RocketTag} from '../assets/rocket.svg';
 import {ReactComponent as EnvelopeTag} from '../assets/envelope.svg';
 import {ReactComponent as BlackTag} from "../assets/blackTag.svg";
 import {ReactComponent as AttachTag} from "../assets/attachment.svg";
+import {ReactComponent as LinkedInTag} from '../assets/linkedin.svg';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Contact = ({id}) => {
@@ -32,7 +33,41 @@ const Contact = ({id}) => {
     };
 
     const sendForm = () => {
-        
+        // fetch('https://fer-api.coderslab.pl/v1/portfolio/contact', {
+        //     method: 'POST',
+        //     headers: {
+        //         "Content-Type": "application/json"
+        //     },
+        //     body: JSON.stringify(fullMessage)
+        // })
+        //     .then(resp => resp.json())
+        //     .then(data => {
+        //         if (data.status === 'success') {
+        //             console.log(data.status);
+        //             setStatusSuccess(true);
+        //         } else if (data.status === 'error') {
+        //             console.log(data.status);
+        //             setStatusError(`Error message: ${data.errors[0].param}.`);
+        //             throw new Error('error');
+        //         }
+        //     })
+        //     .then(() => {
+        //         setName('');
+        //         setEmail('');
+        //         setMssg('');
+        //         setFullMessage({
+        //             name: '',
+        //             email: '',
+        //             message: ''
+        //         });
+        //     })
+        //     .then(() => {
+        //         setTimeout(() => {
+        //             setStatusSuccess(null);
+        //             setStatusError(null);
+        //         }, 7000);
+        //     })
+        //     .catch(error => console.log(error));
     };
 
     useEffect(() => {
@@ -88,7 +123,7 @@ const Contact = ({id}) => {
                     <div className='contact__col col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                         <div className='contact__card contact__card--left card'>
                             <div className="card__header card-header">
-                                Contact me via e-mail
+                                Contact me via e-mail or LinkedIn
                             </div>
                             <div className='card__body card__body--left card-body'>
                                 <h5 className='card__title card-title'>
@@ -115,6 +150,16 @@ const Contact = ({id}) => {
                                                 : null}
                                         </span>
                                     </CopyToClipboard>
+                                </p>
+                                <p className='card__text card-text'>
+                                    <div className='card__link'>
+                                        <LinkedInTag className='button__image'/>
+                                        <a target='_blank' rel='noopener noreferrer'
+                                           href='https://www.linkedin.com/in/monika-nowogorska/'
+                                           className='card__link-href'>
+                                            LinkedIn profile
+                                        </a>
+                                    </div>
                                 </p>
                             </div>
                         </div>
