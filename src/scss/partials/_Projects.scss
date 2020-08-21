@@ -9,3 +9,15 @@
     align-items: center;
   }
 }
+
+@media (max-width: 415px){
+  .container-fluid{
+    padding: 0;
+  }
+  .project__card{
+    padding: 10px !important;
+  }
+  .projects__col{
+    padding: 0;
+  }
+}

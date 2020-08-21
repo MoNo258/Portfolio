@@ -1,1 +1,209 @@
 @import "../settings/variables";
+@use "sass:color";
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: lighten($color-set1-light, 10%);
+  .contact__wrapper {}
+  .contact__title {
+    text-align: center;
+  }
+  .contact__text {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .contact__row {}
+  .contact__col {}
+  .contact__card {
+    background-color: $color-set1-light;
+    margin-bottom: 10px;
+  }
+  .contact__card--left {}
+  .card__header {}
+  .card__body {}
+  .card__body--left {}
+  .card__title {}
+  .card__text {
+    font-family: $font-alternative;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 50px 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .button__image {}
+  .contact__card--right {}
+  .card__body--right {}
+  .success-message {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: darken($color-set1-color, 10%);
+    margin-bottom: 15px;
+    p {
+      margin-bottom: 4px;
+    }
+  }
+  .error-message {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #c70c0c;
+    margin-bottom: 15px;
+    p {
+      margin-bottom: 4px;
+    }
+  }
+  .empty-div--success {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  .contact__form {}
+  .form__group {}
+  .form__label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .form__label--textarea {}
+  .form__label--attachment {
+    font-weight: 400;
+  }
+  .form__group {
+    .form__control.form-control {
+      background-color: lighten($color-set1-light, 10%);
+      color: $color-set1-dark;
+      border: 1px solid transparent;
+      outline: none;
+      &:focus {
+        box-shadow: 0 0 0 1px lighten($color-set1-color, 10%);
+      }
+      &::placeholder {
+        color: lighten($color-set1-dark, 40%);
+      }
+    }
+  }
+  .form__group--attachmentOld {
+    position: relative;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .form__control-file {
+    position: relative;
+    text-align: right;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 2;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .form__group--attachmentNew {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+    .form__control-fileNew {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .form__imageAttachment {
+      margin-left: 10px;
+      width: 30px;
+      height: 30px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .error-info {
+    font-size: 12px;
+    font-weight: 700;
+    color: #c70c0c;
+    padding-top: 5px;
+    border: 1.0px solid transparent;
+    position: relative;
+    top: -2px;
+  }
+  .empty-div--error {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 15.5px;
+    border: 1.0px solid transparent;
+  }
+  .copy-info {
+    color: darken($color-set1-color, 10%);
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    padding: 0;
+  }
+  .form__button {
+    font-family: $font-alternative;
+    text-align: center;
+    font-weight: 600;
+    background: $color-set1-dark;
+    border-color: $color-set1-dark;
+    color: lighten($color-set1-light, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    &:hover {
+      color: $color-set1-light;
+      background: darken($color-set1-dark, 20%);
+      .button__image {
+        fill: darken($color-set1-color, 10%);
+      }
+    }
+    &:disabled:hover {
+      color: lighten($color-set1-light, 20%);
+      background: $color-set1-dark;
+      cursor: not-allowed;
+      .button__image {
+        fill: darken($color-set1-color, 00%);
+      }
+    }
+  }
+  .form__control-fileNew {
+    background-color: lighten($color-set1-light, 10%);
+    color: $color-set1-dark;
+    border: 1px solid transparent;
+  }
+  .button__image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: $color-set1-color;
+    &:hover {
+      fill: darken($color-set1-color, 10%);
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .contact__title {
+    font-size: 22px;
+  }
+  .contact__text {
+    font-size: 20px;
+  }
+  .card__text {
+    span {
+      font-size: 22px;
+    }
+  }
+}

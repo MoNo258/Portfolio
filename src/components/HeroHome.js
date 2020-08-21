@@ -16,7 +16,7 @@ const HeroHome = ({id}) => {
             <div className='hero__container'>
                 <h1 className='hero__header'>
                     <span>Hi :)</span>
-                    <span>I am Web Developer</span>
+                    <span>I am a Web Developer</span>
                 </h1>
                 <div className='hero__button'>
                     <LinkScroll to='projects' className='hero__link'
