@@ -21,7 +21,7 @@ const HeroHome = ({id}) => {
                 <div className='hero__button'>
                     <LinkScroll to='projects' className='hero__link'
                                 spy={true} smooth={true} offset={-50} duration={500}>
-                        Checkout my projects
+                        Check out my projects
                     </LinkScroll>
                 </div>
             </div>
