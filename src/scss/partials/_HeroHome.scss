@@ -4,13 +4,13 @@
 .heroHome{
   height: 100vh;
   position: relative;
-  &:before{
+  &::before{
     position: absolute;
     content: '';
     height: 100%;
     width: 100%;
     background-color: $color-set1-light;
-    opacity: 50% ;
+    opacity: .5 ;
   }
   .hero__container{
     height: 100%;

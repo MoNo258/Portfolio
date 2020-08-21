@@ -261,6 +261,7 @@ const Contact = ({id}) => {
                                                    onChange={handleFile} id="formAttachment"
                                                    title='Select a file'/>
                                             <div className='form__group form__group--attachmentNew form-group'>
+                                                {/*eslint-disable-next-line*/}
                                                 <a className="form__control-fileNew form-control">{attachmentName}</a>
                                                 <AttachTag className='button__image form__imageAttachment'/>
                                             </div>
