@@ -1,9 +1,10 @@
 import React, {useState} from "react";
 import {Link as LinkScroll} from 'react-scroll';
+import { HashLink as Link } from 'react-router-hash-link';
 import classNames from 'classnames';
 
 
-const Header = ({id}) => {
+const HeaderProject = ({id}) => {
     const [toggleOpen, setToggleOpen] = useState(false);
 
     const handleButtonClick = () => {
@@ -11,7 +12,7 @@ const Header = ({id}) => {
     };
 
     return (
-        <div className='header' id={id} >
+        <div className='header'id={id} >
             <nav className='navbar navbar-expand-lg navbar-dark bg-dark sticky-top header__navbar' >
                 <a target='_blank' rel='noopener noreferrer' href='https://github.com/MoNo258'
                    className='navbar-brand header__brand'>
@@ -25,26 +26,23 @@ const Header = ({id}) => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div id='navbarSupportedContent'
-                    className={classNames('collapse navbar-collapse justify-content-end header__list',{'show':toggleOpen})}
+                     className={classNames('collapse navbar-collapse justify-content-end header__list',{'show':toggleOpen})}
                 >
                     <ul className='navbar-nav mr-auto header__list--ul'>
                         <li className='nav-item header__item'>
-                            <LinkScroll to='heroHome' className='nav-link header__link'
-                                        spy={true} smooth={true} offset={0} duration={250}>
-                                Start
-                            </LinkScroll>
+                            <Link to="/#heroHome" className='nav-link header__link'>
+                                Main Page
+                            </Link>
                         </li>
                         <li className='nav-item  header__item'>
-                            <LinkScroll to='projects' className='nav-link header__link'
-                                        spy={true} smooth={true} offset={-50} duration={500}>
+                            <Link to="/#projects" className='nav-link header__link'>
                                 Projects
-                            </LinkScroll>
+                            </Link>
                         </li>
                         <li className='nav-item  header__item'>
-                            <LinkScroll to='contact' className='nav-link header__link'
-                                        spy={true} smooth={true} offset={0} duration={500}>
+                            <Link to="/#contact" className='nav-link header__link'>
                                 Contact me
-                            </LinkScroll>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -53,4 +51,4 @@ const Header = ({id}) => {
     )
 };
 
-export default Header;
+export default HeaderProject;

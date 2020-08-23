@@ -1,0 +1,103 @@
+@use 'sass:color';
+@import "../settings/variables";
+
+.project{
+  .projects__col {
+    .card__btn--image {
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        background-color: $color-set1-light;
+        opacity: 0.3;
+      }
+    }
+    &:hover{
+      .card__btn--image{
+        &::before{
+          height: 0;
+          width:0;
+        }
+      }
+    }
+  }
+  .project__card {
+    margin: 10px;
+    background-color: lighten($color-set1-light, 10%);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darken($color-set1-color, 10%);
+  }
+  .card__container {
+    border: 1px solid darken($color-set1-color, 10%);
+    margin: 0;
+    padding: 0;
+    border-radius: 0.25rem;
+    background-color: $color-set1-light;
+  }
+  .card__image {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  .card__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    margin: 0;
+  }
+  .card__title {
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .card__text {
+    height: 115px;
+    font-family: $font-alternative;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  .card__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card__btn {
+    font-family: $font-alternative;
+    text-align: center;
+    font-weight: 600;
+    background: $color-set1-dark;
+    border-color: $color-set1-dark;
+    color: lighten($color-set1-light, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    .button__image {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      fill: $color-set1-color;
+    }
+    &:hover {
+      color: $color-set1-light;
+      background: darken($color-set1-dark, 20%);
+      .button__image {
+        fill: darken($color-set1-color, 10%);
+      }
+    }
+  }
+  .card__btn--svg{
+    width: 120px;
+    height: 40px;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import {ReactComponent as RocketTag} from '../assets/rocket.svg';
 import {ReactComponent as BlackTag} from '../assets/blackTag.svg';
 import {ReactComponent as GitHubTag} from '../assets/github.svg';
@@ -21,10 +22,16 @@ const ProjectCard = ({image, title, text, demoLink, gitHubLink}) => {
                             {text}
                         </p>
                         <div className='card__buttons '>
+
                             <Link to='/project' className='card__btn card__btn--svg btn btn-dark'>
                                 <BlackTag className='button__image'/>
                                 Details
                             </Link>
+                            {/*<HashLink to="/#project" className='card__btn card__btn--svg btn btn-dark'>*/}
+                            {/*    <BlackTag className='button__image'/>*/}
+                            {/*    DetailsHash*/}
+                            {/*</HashLink>*/}
+
                             <a target='_blank' rel='noopener noreferrer'
                                href={demoLink}
                                className='card__btn card__btn--svg btn btn-dark'>
