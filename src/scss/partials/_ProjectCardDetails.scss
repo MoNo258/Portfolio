@@ -107,11 +107,26 @@
   .textarea__list{}
   .textarea__item{
     font-size: 17px;
-    list-style-type: lower-alpha;
-    list-style: inside;
+    //list-style: inside url("../assets/dotCircle.svg");
+    list-style: none;
+    //fill: $color-set1-color;
   }
 
 
+  .cardCD__tag {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: $color-set1-color;
+  }
+  .cardCD__tag--title{
+    width: 30px;
+    height: 30px;
+  }
+  .cardCD__tag--list{
+    width: 10px;
+    height: 10px;
+  }
 
 
 
