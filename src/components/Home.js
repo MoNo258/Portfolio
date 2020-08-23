@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import HeroHome from "./HeroHome";
-import Projects from "./Projects";
+import ProjectsSection from "./ProjectsSection";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -11,7 +11,7 @@ const Home = () => {
         <div className='home'>
             <Header id='header' />
             <HeroHome id='heroHome' />
-            <Projects id='projects' />
+            <ProjectsSection id='projectsSection' />
             <Contact id='contact' />
             <Footer id='footer' />
         </div>

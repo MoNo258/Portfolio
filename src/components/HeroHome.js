@@ -19,7 +19,7 @@ const HeroHome = ({id}) => {
                     <span>I am a Junior Web Developer</span>
                 </h1>
                 <div className='hero__button'>
-                    <LinkScroll to='projects' className='hero__link'
+                    <LinkScroll to='projectsSection' className='hero__link'
                                 spy={true} smooth={true} offset={-50} duration={500}>
                         Check out my projects
                     </LinkScroll>

@@ -152,14 +152,14 @@ const Contact = ({id}) => {
                                     </CopyToClipboard>
                                 </p>
                                 <p className='card__text card-text'>
-                                    <div className='card__link'>
+                                    <li className='card__link'>
                                         <LinkedInTag className='button__image'/>
                                         <a target='_blank' rel='noopener noreferrer'
                                            href='https://www.linkedin.com/in/monika-nowogorska/'
                                            className='card__link-href'>
                                             LinkedIn profile
                                         </a>
-                                    </div>
+                                    </li>
                                 </p>
                             </div>
                         </div>

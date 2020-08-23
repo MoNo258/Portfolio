@@ -35,7 +35,7 @@ const HeaderProject = ({id}) => {
                             </Link>
                         </li>
                         <li className='nav-item  header__item'>
-                            <Link to="/#projects" className='nav-link header__link'>
+                            <Link to="/#projectsSection" className='nav-link header__link'>
                                 Projects
                             </Link>
                         </li>

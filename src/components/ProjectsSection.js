@@ -2,14 +2,15 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import projectsData from "../data/projectsData";
 
-const Projects = ({id}) => {
+const ProjectsSection = ({id}) => {
     return (
-        <div className='projects' id={id}>
+        <div className='projectsSection' id={id}>
             <div className='projects__container container-fluid'>
                 <div className='project__cardDeck card-deck'>
                     {projectsData.map(project => {
                         return <ProjectCard
                             key={project.index}
+                            id={project.index}
                             image={project.image}
                             title={project.title}
                             text={project.text}
@@ -23,4 +24,4 @@ const Projects = ({id}) => {
     )
 };
 
-export default Projects;
+export default ProjectsSection;

@@ -35,7 +35,7 @@ const Header = ({id}) => {
                             </LinkScroll>
                         </li>
                         <li className='nav-item  header__item'>
-                            <LinkScroll to='projects' className='nav-link header__link'
+                            <LinkScroll to='projectsSection' className='nav-link header__link'
                                         spy={true} smooth={true} offset={-50} duration={500}>
                                 Projects
                             </LinkScroll>

@@ -1,13 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink as HLink} from 'react-router-hash-link';
 import {ReactComponent as RocketTag} from '../assets/rocket.svg';
 import {ReactComponent as BlackTag} from '../assets/blackTag.svg';
 import {ReactComponent as GitHubTag} from '../assets/github.svg';
+import projectsData from "../data/projectsData";
 
-const ProjectCard = ({image, title, text, demoLink, gitHubLink}) => {
+const ProjectCard = ({id, image, title, text, demoLink, gitHubLink}) => {
     return (
-        <div className='projects__col col-xl-4 col-lg-6 col-md-6 col-sm-12'>
+        <div className='projects__col col-xl-4 col-lg-6 col-md-6 col-sm-12' id={projectsData.index}>
             <div className='project__card card'>
                 <div className='card__container'>
                     <Link to='/project' className='card__btn--image card__btn'>
@@ -23,14 +24,14 @@ const ProjectCard = ({image, title, text, demoLink, gitHubLink}) => {
                         </p>
                         <div className='card__buttons '>
 
-                            <Link to='/project' className='card__btn card__btn--svg btn btn-dark'>
+                            <Link to={`/project/${id}`} className='card__btn card__btn--svg btn btn-dark'>
                                 <BlackTag className='button__image'/>
                                 Details
                             </Link>
-                            {/*<HashLink to="/#project" className='card__btn card__btn--svg btn btn-dark'>*/}
+                            {/*<HLink to={`/#/#project/${id}`} className='card__btn card__btn--svg btn btn-dark'>*/}
                             {/*    <BlackTag className='button__image'/>*/}
-                            {/*    DetailsHash*/}
-                            {/*</HashLink>*/}
+                            {/*    Hash D*/}
+                            {/*</HLink>*/}
 
                             <a target='_blank' rel='noopener noreferrer'
                                href={demoLink}
