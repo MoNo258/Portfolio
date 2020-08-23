@@ -5,27 +5,28 @@ import ProjectCardDetails from "./ProjectCardDetails";
 import {useParams} from "react-router-dom";
 
 import projectsData from "../data/projectsData";
+import BackButton from "./BackButton";
 
 const Project = () => {
 
     let {projectId} = useParams();
-    let id = parseInt(projectId) -1 ;
+    let id = parseInt(projectId) - 1;
 
     return (
-        <div className='project' >
-            <HeaderProject id='headerProject' />
-
+        <div className='project'>
+            <HeaderProject id='headerProject'/>
             <ProjectCardDetails className='projectCardDetails container'
-                id={projectsData[id].index}
-                key={projectsData[id].index}
-                image={projectsData[id].image}
-                title={projectsData[id].title}
-                text={projectsData[id].text}
-                demoLink={projectsData[id].demoLink}
-                gitHubLink={projectsData[id].gitHubLink}
+                                id={projectsData[id].index}
+                                key={projectsData[id].index}
+                                image={projectsData[id].image}
+                                title={projectsData[id].title}
+                                text={projectsData[id].text}
+                                textarea={projectsData[id].textarea}
+                                demoLink={projectsData[id].demoLink}
+                                gitHubLink={projectsData[id].gitHubLink}
             />
-            
-            <Footer id='footer' />
+            <BackButton/>
+            <Footer id='footer'/>
         </div>
     )
 };

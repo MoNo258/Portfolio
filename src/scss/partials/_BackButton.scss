@@ -1,0 +1,38 @@
+@use 'sass:color';
+@import "../settings/variables";
+
+.backButton{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .backBtn__btn {
+    font-family: $font-alternative;
+    text-align: center;
+    font-weight: 600;
+    background: $color-set1-dark;
+    border-color: $color-set1-dark;
+    color: lighten($color-set1-light, 20%);
+    margin: 5px;
+    .button__image {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      fill: $color-set1-color;
+    }
+    &:hover {
+      color: $color-set1-light;
+      background: darken($color-set1-dark, 20%);
+      .button__image {
+        fill: darken($color-set1-color, 10%);
+      }
+    }
+  }
+  .backBtn__btn--svg{
+    width: 120px;
+    height: 40px;
+  }
+
+
+}

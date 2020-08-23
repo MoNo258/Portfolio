@@ -13,6 +13,7 @@ Designed and coded by MoNo258 :) <br />
 
 ## This project uses
 * React.js
+* React Router
 * Sass
 * Bootstrap
 * create-react-app (This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
