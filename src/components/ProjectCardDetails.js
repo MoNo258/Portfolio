@@ -29,9 +29,7 @@ const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubL
                             {text}
                         </p>
                         <div className='cardCD__textarea'
-                             dangerouslySetInnerHTML={textareaFunction()}
-
-                        >
+                             dangerouslySetInnerHTML={textareaFunction()} >
                         </div>
                         <div className='cardCD__buttons '>
                             <a target='_blank' rel='noopener noreferrer'
