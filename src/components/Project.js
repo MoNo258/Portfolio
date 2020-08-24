@@ -17,7 +17,7 @@ const Project = () => {
             <ProjectCardDetails className='projectCardDetails container'
                                 id={projectsData[id].index}
                                 key={projectsData[id].index}
-                                image={projectsData[id].image}
+                                image={projectsData[id].imageAlt}
                                 title={projectsData[id].title}
                                 text={projectsData[id].text}
                                 textarea={projectsData[id].textarea}

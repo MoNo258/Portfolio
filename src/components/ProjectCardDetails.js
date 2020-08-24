@@ -13,7 +13,8 @@ const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubL
     };
 
     return (
-        <div className='projectCardDetails container' id={id}>
+        // <div className='projectCardDetails container' id={id}>
+            <div className='projectCardDetails col-xl-9 col-lg-10 col-md-12 col-sm-12' id={id}>
             <div className='project__cardCD card'>
                 <div className='cardCD__container'>
                     <div className='cardCD_picture'>

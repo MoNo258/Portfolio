@@ -129,6 +129,33 @@
     width: 30px;
     height: 30px;
   }
+}
 
-
+@media (max-width: 768px){
+  .project {
+    .projectCardDetails {
+      .project__cardCD {
+        padding: 30px;
+      }
+      .cardCD_picture {
+        padding: 5px;
+      }
+      .cardCD__title {
+        font-size: 23px;
+      }
+      .cardCD__text {
+        font-size: 15px;
+      }
+      .textarea__title{
+        font-size: 17px;
+      }
+      .textarea__item{
+        font-size: 16px;
+      }
+      .cardCD__tag--title{
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
 }

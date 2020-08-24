@@ -1,13 +1,19 @@
 import projectExchange from '../assets/exchange_rates_board.JPG';
+import projectExchange_Alt from '../assets/ExRates_alt.jpg';
 import projectShare from '../assets/share_because_you_care.JPG';
+import projectShare_Alt from '../assets/SBC_alt.jpg';
 import projectChat from '../assets/ChatApp.JPG';
+import projectChat_Alt from '../assets/ChatA_alt.jpg';
 import projectScrum from '../assets/zaplanuj_jedzonko.JPG';
+import projectScrum_Alt from '../assets/ZJ_alt.jpg';
 import projectPPP from '../assets/potluck_party_planner.JPG';
+import projectPPP_Alt from '../assets/PPP_alt.jpg';
 
 export default [
     {
         'index': 1,
         'image': projectExchange,
+        'imageAlt': projectExchange_Alt,
         'title': 'Exchange Rates Board',
         'text': 'Project that presents latest & historical exchange rates and financial news from API.',
         'demoLink': 'https://mono258.github.io/Exchange_Rates_Board-project',
@@ -55,6 +61,7 @@ export default [
     {
         'index': 2,
         'image': projectShare,
+        'imageAlt': projectShare_Alt,
         'title': 'Share because you care',
         'text': 'Landing page with contact form. ' +
             'After login user have ' +
@@ -98,6 +105,7 @@ export default [
     {
         'index': 3,
         'image': projectChat,
+        'imageAlt': projectChat_Alt,
         'title': 'ChatApp',
         'text': 'ChatApp is very simple chat where logged in user can post messages ' +
             'and check out posts of other users.',
@@ -128,6 +136,7 @@ export default [
     {
         'index': 4,
         'image': projectScrum,
+        'imageAlt': projectScrum_Alt,
         'title': 'Plan your eating behaviors',
         'text': 'Landing page and app for adding recipes and food schedules. ' +
             'Project created as part of Scrum Lab during 1 week sprint (two team members)',
@@ -179,6 +188,7 @@ export default [
     {
         'index': 5,
         'image': projectPPP,
+        'imageAlt': projectPPP_Alt,
         'title': 'Potluck Party Planner',
         'text': 'Potluck Party Planner is an app to be used with friends while organizing a party. ' +
             'This app will help you to agree on who brings what.',
