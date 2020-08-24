@@ -131,12 +131,18 @@
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1024px){
   .project {
     .projectCardDetails {
       .project__cardCD {
         padding: 30px;
       }
+    }
+  }
+}
+@media (max-width: 768px){
+  .project {
+    .projectCardDetails {
       .cardCD_picture {
         padding: 5px;
       }
@@ -155,6 +161,16 @@
       .cardCD__tag--title{
         width: 25px;
         height: 25px;
+      }
+    }
+  }
+}
+@media (max-width: 415px){
+  .project {
+    .projectCardDetails {
+      padding: 0;
+      .project__cardCD {
+        padding: 10px;
       }
     }
   }
