@@ -12,16 +12,45 @@ export default [
         'text': 'Project that presents latest & historical exchange rates and financial news from API.',
         'demoLink': 'https://mono258.github.io/Exchange_Rates_Board-project',
         'gitHubLink': 'https://github.com/MoNo258/Exchange_Rates_Board-project',
-        'textarea': '' +
-            'This project uses:\n' +
-            '- JavaScript ES6\n' +
-            '- React\n' +
-            '- CSS and Sass\n' +
-            '- Bootstrap & reactstrap\n' +
-            '- Webpack (for configuration)\n' +
-            '- REST API + WebSocket API\n' +
-            '- Firebase\n' +
-            '- GitHub repository: Black Dashboard React *'
+        'textarea': `  <h3 class='textarea__title'>
+                                    This project uses:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item' >
+                                        <i class="fas fa-location-arrow"></i>
+                                        JavaScript ES6
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        React.js, React Router
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        CSS and Sass
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Bootstrap & reactstrap
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Webpack (for configuration)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        REST API + WebSocket API
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Firebase
+                                    </li>
+                                    <li class='textarea__item'
+                                        data-toggle="tooltip" data-placement="top"
+                                        title="Black Dashboard React: Copyright 2018 Creative Tim" >
+                                         <i class="fas fa-location-arrow"></i>
+                                        GitHub repository: Black Dashboard React
+                                    </li>
+                                </ul>`
     },
     {
         'index': 2,
@@ -32,14 +61,39 @@ export default [
             'possibility to fill in few steps form to give the things away.',
         'demoLink': 'https://mono258.github.io/Share_because_you_care',
         'gitHubLink': 'https://github.com/MoNo258/Share_because_you_care',
-        'textarea': '' +
-            'This project uses\n' +
-            '- create-react-app (This project was bootstrapped with Create React App.)\n' +
-            '- React Router\n' +
-            '- Bootstrap, Sass\n' +
-            '- react-js-pagination\n' +
-            '- API\n' +
-            '- Firebase authentication (email & password)'
+        'textarea': `  <h3 class='textarea__title'>
+                                    This project uses:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item' >
+                                        <i class="fas fa-location-arrow"></i>
+                                        create-react-app (This project was bootstrapped with Create React App.)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        JavaScript ES6
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        React.js, React Router
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Bootstrap, Sass
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        react-js-pagination
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        API
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Firebase authentication (email & password)
+                                    </li>
+                                </ul>`
     },
     {
         'index': 3,
@@ -49,7 +103,27 @@ export default [
             'and check out posts of other users.',
         'demoLink': 'https://mono258.github.io/ChatApp',
         'gitHubLink': 'https://github.com/MoNo258/ChatApp',
-        'textarea': ''
+        'textarea': `  <h3 class='textarea__title'>
+                                    This project uses:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item' >
+                                        <i class="fas fa-location-arrow"></i>
+                                        create-react-app (This project was bootstrapped with Create React App.)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        React.js, React Router
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Firebase authentication (email/password; Google; GitHub)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Firebase realtime database
+                                    </li>
+                                </ul>`
     },
     {
         'index': 4,
@@ -59,17 +133,48 @@ export default [
             'Project created as part of Scrum Lab during 1 week sprint (two team members)',
         'demoLink': 'https://github.com/MoNo258/CodersLab_WAR_SFE_S_149_ScrumLab-repo',
         'gitHubLink': 'https://github.com/MoNo258/CodersLab_WAR_SFE_S_149_ScrumLab-repo',
-        'textarea': '' +
-            'This project uses:\n' +
-            '- Sass Dart\n' +
-            '- JavaScrip ES6\n' +
-            '- Gulp (for Sass)\n' +
-            '- Webpack (for js)\n' +
-            'This project was created:\n' +
-            '- in Scrum methodology\n' +
-            '- using GitHub repo and Git for local branches\n' +
-            '- using Trello (Kanban board) for tracking progress\n' +
-            '- using WebStorm'
+        'textarea': `  <h3 class='textarea__title'>
+                                    This project uses:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        JavaScript ES6
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Sass Dart
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Gulp (for Sass)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Webpack (for js)
+                                    </li>
+                                </ul>
+                                <h3 class='textarea__title'>
+                                    This project was created:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        in Scrum methodology
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        using GitHub repo and Git for local branche
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        using Trello (Kanban board) for tracking progress
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        using WebStorm
+                                    </li>
+                                </ul>`
     },
     {
         'index': 5,
@@ -79,6 +184,26 @@ export default [
             'This app will help you to agree on who brings what.',
         'demoLink': 'https://mono258.github.io/PPP-Potluck_Party_Planner',
         'gitHubLink': 'https://github.com/MoNo258/PPP-Potluck_Party_Planner',
-        'textarea': ''
+        'textarea': `  <h3 class='textarea__title'>
+                                    This project uses:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item' >
+                                        <i class="fas fa-location-arrow"></i>
+                                        create-react-app (This project was bootstrapped with Create React App.)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        React.js
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Firebase authentication (Google)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Firebase realtime database
+                                    </li>
+                                </ul>`
     },
 ];
