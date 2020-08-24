@@ -1,31 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f48c18d5607ae8e24c215d79827cbaf",
+    "revision": "7f341bc68f6650554c035f308984dc01",
     "url": "./index.html"
   },
   {
-    "revision": "83d5189503f5115e08cd",
-    "url": "./static/css/main.611b730d.chunk.css"
+    "revision": "5361063bde6ca0c17772",
+    "url": "./static/css/main.1c0327bf.chunk.css"
   },
   {
-    "revision": "02ec4bb7090157a4a0c8",
-    "url": "./static/js/2.1c1e40d9.chunk.js"
+    "revision": "06297bad6335ee394da2",
+    "url": "./static/js/2.b73d3bc0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "./static/js/2.1c1e40d9.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.b73d3bc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83d5189503f5115e08cd",
-    "url": "./static/js/main.2fee5c2f.chunk.js"
+    "revision": "5361063bde6ca0c17772",
+    "url": "./static/js/main.7025abc0.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
     "url": "./static/js/runtime-main.916853f0.js"
   },
   {
+    "revision": "3de4602e8dc1e2e8b79d7882a6ad7f0d",
+    "url": "./static/media/ChatA_alt.3de4602e.jpg"
+  },
+  {
     "revision": "001787b1579b97b03d38f5700df0f26f",
     "url": "./static/media/ChatApp.001787b1.JPG"
+  },
+  {
+    "revision": "f0956f5847d74803ed082d699d9bd2bf",
+    "url": "./static/media/ExRates_alt.f0956f58.jpg"
+  },
+  {
+    "revision": "ecafd5c2c4bd73aee86c04c32fd5bc1f",
+    "url": "./static/media/PPP_alt.ecafd5c2.jpg"
+  },
+  {
+    "revision": "7d98dfe3f65532a8fdefc9b50f1b80bf",
+    "url": "./static/media/SBC_alt.7d98dfe3.jpg"
+  },
+  {
+    "revision": "b0bfc4f9b2c3dd16d04a6c10a382fc89",
+    "url": "./static/media/ZJ_alt.b0bfc4f9.jpg"
   },
   {
     "revision": "e9964363436222132f9974fe780ebd40",
