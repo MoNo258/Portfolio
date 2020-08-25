@@ -1,7 +1,8 @@
 # Portfolio
 
 This is Portfolio of MoNo258. You will find there most recent projects - all in one place together with needed links.<br />
-Designed and coded by MoNo258 :) <br />
+<br />
+*Designed and coded by MoNo258 :)* <br />
 `project still in progress...`
 
 ## Link to demo:
@@ -9,6 +10,7 @@ Designed and coded by MoNo258 :) <br />
 
 ![screenshot](https://github.com/MoNo258/Portfolio/raw/master/src/assets/Portfolio1.JPG "Portfolio screenshot 1")
 ![screenshot](https://github.com/MoNo258/Portfolio/raw/master/src/assets/Portfolio2.JPG "Portfolio screenshot 2")
+![screenshot](https://github.com/MoNo258/Portfolio/raw/master/src/assets/Portfolio2A.JPG "Portfolio screenshot 2A")
 ![screenshot](https://github.com/MoNo258/Portfolio/raw/master/src/assets/Portfolio3.JPG "Portfolio screenshot 3")
 
 ## This project uses
@@ -18,6 +20,7 @@ Designed and coded by MoNo258 :) <br />
 * Bootstrap
 * create-react-app (This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
 * svg icons made by Dave Gandy from [Flaticon](https://www.flaticon.com/)
+* original Wonder Woman jpg taken from [pixabay](https://cdn.pixabay.com/photo/2017/07/06/18/48/wonder-woman-2478971_960_720.jpg) and modified by MoNo258
 
 
 ## Useful info

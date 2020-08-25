@@ -24,19 +24,40 @@
     }
   }
   .footer__copyright{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding-left: 100px;
   }
   .footer__icon--linkedin{}
   .footer__icon--github{}
 }
 
+@media (max-width: 530px) {
+  .footer {
+    .footer__copyright{
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+}
 @media (max-width: 415px) {
   .footer {
     .footer__navbar {
       justify-content: center;
+    }
+  }
+}
+@media (max-width: 371px) {
+  .footer {
+    .footer__copyright{
+      margin: auto;
+    }
+    .footer__navbar {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
