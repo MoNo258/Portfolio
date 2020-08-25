@@ -1,0 +1,160 @@
+@use 'sass:color';
+@import "../settings/variables";
+
+.aboutMe {
+  background-color: $color-set1-dark;
+
+  .aboutMe__container{}
+  .aboutMe__cardDeck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .aboutMe__row {
+      width: 100%;
+      //height: 450px;
+      margin: 20px auto;
+    }
+
+    .aboutMe__col {
+      //display: flex;
+      //justify-content: center;
+      //align-items: center;
+      ////height: 100%;
+      margin: 5px 0;
+    }
+
+    .card__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      overflow: hidden;
+    }
+
+    .aboutMe_img {
+      //height: auto;
+      //width: 300px;
+      overflow: hidden;
+      border: none;
+    }
+
+
+
+
+
+
+    .aboutMe__card {
+      height: 100%;
+      margin: 0 10px;
+      background-color: lighten($color-set1-light, 00%);
+      //background-color: darken($color-set1-light, 00%);
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid darken($color-set1-color, 10%);
+    }
+    .card__container {
+      height: 100%;
+      width: 100%;
+      border: 1px solid darken($color-set1-color, 10%);
+      margin: 0;
+      padding: 0;
+      border-radius: 0.25rem;
+      background-color: $color-set1-light;
+      background-color: lighten($color-set1-light, 10%);
+    }
+    .card__image {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    .card__body {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      border: none;
+      margin: 0;
+    }
+    .card__title {
+      text-align: center;
+      font-weight: 700;
+      line-height: 1.5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card__text {
+      //height: 115px;
+      font-family: $font-alternative;
+      text-align: center;
+      //margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+    .cardAM__tag {
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+      fill: $color-set1-color;
+    }
+    .card__listContainer{
+      line-height: 1.2;
+      margin-top: 10px;
+    }
+    .card__listTitle{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .card__list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
+    .cardAM__tag--list{
+      width: 10px;
+      height: 10px;
+      margin-left: 10px;
+      margin-right: 5px;
+    }
+    .card__item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $font-alternative;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+
+
+
+
+
+  }
+}
+
+@media (max-width: 415px){
+  .aboutMe {
+    .container-fluid{
+      padding: 0;
+    }
+    .aboutMe__card{
+      padding: 10px !important;
+      margin: 0 10px;
+      margin: 0 !important;
+    }
+    .aboutMe__row {
+      width: 95% !important;
+    }
+    .aboutMe__col{
+      padding: 0;
+    }
+  }
+}
