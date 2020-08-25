@@ -12,7 +12,7 @@ const HeaderProject = ({id}) => {
     };
 
     return (
-        <div className='header'id={id} >
+        <div className='header' id={id} >
             <nav className='navbar navbar-expand-lg navbar-dark bg-dark sticky-top header__navbar' >
                 <a target='_blank' rel='noopener noreferrer' href='https://github.com/MoNo258'
                    className='navbar-brand header__brand'>
@@ -37,6 +37,11 @@ const HeaderProject = ({id}) => {
                         <li className='nav-item  header__item'>
                             <Link to="/#projectsSection" className='nav-link header__link'>
                                 Projects
+                            </Link>
+                        </li>
+                        <li className='nav-item  header__item'>
+                            <Link to="/#aboutMe" className='nav-link header__link'>
+                                About me
                             </Link>
                         </li>
                         <li className='nav-item  header__item'>

@@ -50,7 +50,6 @@ const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubL
                 </div>
             </div>
         </div>
-
     )
 };
 

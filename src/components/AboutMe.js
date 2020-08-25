@@ -9,7 +9,6 @@ import {ReactComponent as CheckedTag} from "../assets/checkedSymbol.svg";
 
 const AboutMe = ({id}) => {
 
-
     return (
         <div className='aboutMe ' id={id}>
             <div className='aboutMe__container container-fluid'>

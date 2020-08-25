@@ -41,6 +41,12 @@ const Header = ({id}) => {
                             </LinkScroll>
                         </li>
                         <li className='nav-item  header__item'>
+                            <LinkScroll to='aboutMe' className='nav-link header__link'
+                                        spy={true} smooth={true} offset={0} duration={500}>
+                                About me
+                            </LinkScroll>
+                        </li>
+                        <li className='nav-item  header__item'>
                             <LinkScroll to='contact' className='nav-link header__link'
                                         spy={true} smooth={true} offset={0} duration={500}>
                                 Contact me

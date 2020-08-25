@@ -12,7 +12,7 @@ const Project = () => {
     let id = parseInt(projectId) - 1;
 
     return (
-        <div className='project'>
+        <div className='project' id={`/project/${id + 1}`}>
             <HeaderProject id='headerProject'/>
             <ProjectCardDetails className='projectCardDetails container'
                                 id={projectsData[id].index}
