@@ -14,7 +14,7 @@ const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubL
 
     return (
         // <div className='projectCardDetails container' id={id}>
-            <div className='projectCardDetails col-xl-9 col-lg-10 col-md-12 col-sm-12' id={id}>
+        <div className='projectCardDetails col-xl-9 col-lg-10 col-md-12 col-sm-12' id={id}>
             <div className='project__cardCD card'>
                 <div className='cardCD__container'>
                     <div className='cardCD_picture'>
@@ -30,7 +30,7 @@ const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubL
                             {text}
                         </p>
                         <div className='cardCD__textarea'
-                             dangerouslySetInnerHTML={textareaFunction()} >
+                             dangerouslySetInnerHTML={textareaFunction()}>
                         </div>
                         <div className='cardCD__buttons '>
                             <a target='_blank' rel='noopener noreferrer'

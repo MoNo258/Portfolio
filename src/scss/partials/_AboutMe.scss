@@ -3,28 +3,18 @@
 
 .aboutMe {
   background-color: $color-set1-dark;
-
   .aboutMe__container{}
   .aboutMe__cardDeck {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
     .aboutMe__row {
       width: 100%;
-      //height: 450px;
       margin: 20px auto;
     }
-
     .aboutMe__col {
-      //display: flex;
-      //justify-content: center;
-      //align-items: center;
-      ////height: 100%;
       margin: 5px 0;
     }
-
     .card__image {
       display: flex;
       justify-content: center;
@@ -32,24 +22,14 @@
       border: none;
       overflow: hidden;
     }
-
     .aboutMe_img {
-      //height: auto;
-      //width: 300px;
       overflow: hidden;
       border: none;
     }
-
-
-
-
-
-
     .aboutMe__card {
       height: 100%;
       margin: 0 10px;
       background-color: lighten($color-set1-light, 00%);
-      //background-color: darken($color-set1-light, 00%);
       padding: 30px;
       display: flex;
       justify-content: center;
@@ -63,8 +43,10 @@
       margin: 0;
       padding: 0;
       border-radius: 0.25rem;
-      background-color: $color-set1-light;
       background-color: lighten($color-set1-light, 10%);
+    }
+    .card__container--left{
+      display: flex;
     }
     .card__image {
       border: none;
@@ -131,23 +113,16 @@
       font-weight: 700;
       line-height: 1.2;
     }
-
-
-
-
-
-
   }
 }
 
-@media (max-width: 415px){
+@media (max-width: 450px){
   .aboutMe {
     .container-fluid{
       padding: 0;
     }
     .aboutMe__card{
       padding: 10px !important;
-      margin: 0 10px;
       margin: 0 !important;
     }
     .aboutMe__row {

@@ -10,7 +10,17 @@
   }
 }
 
-@media (max-width: 415px){
+@media (max-width: 900px){
+  .projects__col{
+    padding: 0;
+  }
+}
+@media (max-width: 768px){
+  .projects__col{
+    padding: 0 15px;
+  }
+}
+@media (max-width: 450px){
   .container-fluid{
     padding: 0;
   }

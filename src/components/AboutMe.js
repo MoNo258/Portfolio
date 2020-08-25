@@ -16,7 +16,7 @@ const AboutMe = ({id}) => {
                     <div className='aboutMe__row row'>
                         <div className='aboutMe__col col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                             <div className='aboutMe__card card'>
-                                <div className='card__container'>
+                                <div className='card__container card__container--left'>
                                     <div className='card__image card-img'>
                                         <img className='aboutMe_img' src={picture} alt="woman"/>
                                     </div>
@@ -105,6 +105,10 @@ const AboutMe = ({id}) => {
                                                 <li className='card__item'>
                                                     <CursorTag className='cardAM__tag cardAM__tag--list'/>
                                                     PostgreSQL
+                                                </li>
+                                                <li className='card__item'>
+                                                    <CursorTag className='cardAM__tag cardAM__tag--list'/>
+                                                    Typescript
                                                 </li>
                                             </ul>
                                         </div>

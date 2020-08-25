@@ -2,17 +2,14 @@
 @import "./settings/variables";
 @import "./partials/Header";
 @import "./partials/HeroHome";
-@import "partials/AboutMe";
 @import "./partials/ProjectsSection";
 @import "./partials/ProjectCard";
+@import "partials/AboutMe";
 @import "./partials/Contact";
 @import "./partials/Footer";
 @import "./partials/Project";
 @import "./partials/ProjectCardDetails";
 @import "./partials/BackButton";
-
-
-
 
 body{
   font-family: $font-main;
@@ -20,14 +17,4 @@ body{
   margin: 0;
   padding: 0;
   background-color: $color-set1-light;
-}
-
-.svgIconsInfo{
-  font-family: $font-alternative;
-  font-size: 10px;
-  color: $color-set1-dark;
-  a{
-    color: $color-set1-dark;
-    text-decoration: underline;
-  }
 }
