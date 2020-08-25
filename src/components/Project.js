@@ -23,6 +23,9 @@ const Project = () => {
                                 textarea={projectsData[id].textarea}
                                 demoLink={projectsData[id].demoLink}
                                 gitHubLink={projectsData[id].gitHubLink}
+                                notes={projectsData[id].notes}
+                                exampleLogin={projectsData[id].exampleLogin}
+                                story={projectsData[id].story}
             />
             <BackButton/>
             <Footer id='footer'/>

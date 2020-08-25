@@ -16,6 +16,8 @@ const ProjectsSection = ({id}) => {
                             text={project.text}
                             demoLink={project.demoLink}
                             gitHubLink={project.gitHubLink}
+                            notes={project.notes}
+                            exampleLogin={project.exampleLogin}
                         />
                     })}
                 </div>

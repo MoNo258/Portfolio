@@ -205,6 +205,12 @@
       fill: darken($color-set1-color, 10%);
     }
   }
+  .button__copyTag{
+    height: 15px;
+    width: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 415px) {

@@ -2,18 +2,16 @@ import React from "react";
 import {ReactComponent as RocketTag} from '../assets/rocket.svg';
 import {ReactComponent as GitHubTag} from '../assets/github.svg';
 import {ReactComponent as FileTag} from '../assets/file.svg';
-import {ReactComponent as DocTag} from '../assets/document.svg';
-import {ReactComponent as DotTag} from '../assets/dotCircle.svg';
-import {ReactComponent as CursorTag} from '../assets/cursor.svg';
+import {ReactComponent as KeyTag} from "../assets/key.svg";
+import {ReactComponent as BulbTag} from "../assets/bulb.svg";
 
-const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubLink}) => {
+const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubLink, notes, exampleLogin, story}) => {
 
     const textareaFunction = () => {
         return {__html: textarea};
     };
 
     return (
-        // <div className='projectCardDetails container' id={id}>
         <div className='projectCardDetails col-xl-9 col-lg-10 col-md-12 col-sm-12' id={id}>
             <div className='project__cardCD card'>
                 <div className='cardCD__container'>
@@ -32,6 +30,21 @@ const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubL
                         <div className='cardCD__textarea'
                              dangerouslySetInnerHTML={textareaFunction()}>
                         </div>
+                        <p className='cardCD__text cardCD__text--story'>
+                            <span>Story behind the project: </span>{story}
+                        </p>
+                        <p className='cardCD__text cardCD__text--bottomRWD card-text'>
+                            <BulbTag className='cardCD__tag '/>
+                            {notes}
+                        </p>
+                        <p className='cardCD__text cardCD__text--bottomKey card-text'>
+                            { !exampleLogin ? null
+                            :
+                                <>
+                                    <KeyTag className='cardCD__tag '/> {exampleLogin}
+                                </>
+                            }
+                        </p>
                         <div className='cardCD__buttons '>
                             <a target='_blank' rel='noopener noreferrer'
                                href={demoLink}

@@ -58,12 +58,26 @@
     line-height: 1.5;
   }
   .card__text {
-    height: 115px;
     font-family: $font-alternative;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     line-height: 1.2;
+  }
+  .card__text--text{
+    height: 115px;
+  }
+  .card__text--notes{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card__tag{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: $color-set1-color;
   }
   .card__buttons{
     display: flex;

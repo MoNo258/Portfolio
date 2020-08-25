@@ -4,6 +4,7 @@ import {ReactComponent as EnvelopeTag} from '../assets/envelope.svg';
 import {ReactComponent as BlackTag} from "../assets/blackTag.svg";
 import {ReactComponent as AttachTag} from "../assets/attachment.svg";
 import {ReactComponent as LinkedInTag} from '../assets/linkedin.svg';
+import {ReactComponent as CopyTag} from '../assets/copy.svg';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Contact = ({id}) => {
@@ -133,7 +134,7 @@ const Contact = ({id}) => {
                                     <CopyToClipboard text={copiedNameValue} onCopy={() => setCopiedName(true)}>
                                         <span>
                                             <BlackTag className='button__image'/>
-                                            {copiedNameValue}
+                                            {<>{copiedNameValue} <CopyTag className='button__image button__copyTag'/></>}
                                             {copiedName
                                                 ? <span className='error-info copy-info'> Copied to clipboard</span>
                                                 : null}
@@ -144,7 +145,7 @@ const Contact = ({id}) => {
                                     <CopyToClipboard text={copiedEmailValue} onCopy={() => setCopiedEmail(true)}>
                                         <span>
                                         <EnvelopeTag className='button__image'/>
-                                            {copiedEmailValue}
+                                            {<>{copiedEmailValue} <CopyTag className='button__image button__copyTag'/></>}
                                             {copiedEmail
                                                 ? <span className='error-info copy-info'> Copied to clipboard</span>
                                                 : null}

@@ -4,9 +4,11 @@ import { HashLink as HLink} from 'react-router-hash-link';
 import {ReactComponent as RocketTag} from '../assets/rocket.svg';
 import {ReactComponent as BlackTag} from '../assets/blackTag.svg';
 import {ReactComponent as GitHubTag} from '../assets/github.svg';
+import {ReactComponent as BulbTag} from "../assets/bulb.svg";
 import projectsData from "../data/projectsData";
 
-const ProjectCard = ({id, image, title, text, demoLink, gitHubLink}) => {
+
+const ProjectCard = ({id, image, title, text, demoLink, gitHubLink, notes, exampleLogin}) => {
     return (
         <div className='projects__col col-xl-4 col-lg-6 col-md-6 col-sm-12' id={projectsData.index}>
             <div className='project__card card'>
@@ -19,8 +21,12 @@ const ProjectCard = ({id, image, title, text, demoLink, gitHubLink}) => {
                         <h5 className='card__title card-title'>
                             {title}
                         </h5>
-                        <p className='card__text card-text'>
+                        <p className='card__text card__text--text card-text'>
                             {text}
+                        </p>
+                        <p className='card__text card__text--notes card-text'>
+                            <BulbTag className='card__tag'/>
+                            {notes}
                         </p>
                         <div className='card__buttons '>
                             {/*<Link to={`/project/${id}`} className='card__btn card__btn--svg btn btn-dark'>*/}

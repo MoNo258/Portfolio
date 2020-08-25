@@ -17,6 +17,8 @@ export default [
         'title': 'Exchange Rates Board',
         'text': 'Project that presents latest & historical exchange rates and financial news from API.',
         'demoLink': 'https://mono258.github.io/Exchange_Rates_Board-project',
+        'notes': 'This is RWD app',
+        'exampleLogin': 'Check out whole app using example login details \'person@person.person\' with password \'person\'',
         'gitHubLink': 'https://github.com/MoNo258/Exchange_Rates_Board-project',
         'textarea': `  <h3 class='textarea__title'>
                                     This project uses:
@@ -56,7 +58,13 @@ export default [
                                          <i class="fas fa-location-arrow"></i>
                                         GitHub repository: Black Dashboard React
                                     </li>
-                                </ul>`
+                                </ul>`,
+        'story': ' Final Project for Coders Lab Front-end course. ' +
+            'The idea behind this was based on my experience as Financial Analyst' +
+            ' - this app was supposed to be a \'little sister\' of Reuters and Bloomberg terminals. ' +
+            'I was struggling a lot to find free API services that will give me opportunity to show wider range ' +
+            'of financial instruments. Having that in mind I am really happy ' +
+            'to present you rates\' table, charts and financial news.'
     },
     {
         'index': 2,
@@ -67,6 +75,8 @@ export default [
             'After login user have ' +
             'possibility to fill in few steps form to give the things away.',
         'demoLink': 'https://mono258.github.io/Share_because_you_care',
+        'notes': 'This is RWD app',
+        'exampleLogin': 'Check out whole app using example login details \'person@person.person\' with password \'person\'',
         'gitHubLink': 'https://github.com/MoNo258/Share_because_you_care',
         'textarea': `  <h3 class='textarea__title'>
                                     This project uses:
@@ -100,7 +110,9 @@ export default [
                                          <i class="fas fa-location-arrow"></i>
                                         Firebase authentication (email & password)
                                     </li>
-                                </ul>`
+                                </ul>`,
+        'story': 'Project was created as part of Coders Lab course. Prototype of the project ("Oddam w dobre ręce")' +
+            ' was prepared by Coders Lab graduate - Magda - in Adobe XD.'
     },
     {
         'index': 3,
@@ -110,6 +122,8 @@ export default [
         'text': 'ChatApp is very simple chat where logged in user can post messages ' +
             'and check out posts of other users.',
         'demoLink': 'https://mono258.github.io/ChatApp',
+        'notes': 'This is RWD app',
+        'exampleLogin': 'Check out whole app using example login details \'person@person.person\' with password \'person\'',
         'gitHubLink': 'https://github.com/MoNo258/ChatApp',
         'textarea': `  <h3 class='textarea__title'>
                                     This project uses:
@@ -131,7 +145,11 @@ export default [
                                          <i class="fas fa-location-arrow"></i>
                                         Firebase realtime database
                                     </li>
-                                </ul>`
+                                </ul>`,
+        'story': 'This app was written based on tutorial prepared by Deven Rathore from \'CSS-TRICKS\'. ' +
+            'My main goal was to learn Firebase authentication (using email & password / with Google / with GitHub) ' +
+            'and Firebase realtime database. ' +
+            'Additionally I wanted to work on app created with create-react-app package.'
     },
     {
         'index': 4,
@@ -140,7 +158,8 @@ export default [
         'title': 'Plan your eating behaviors',
         'text': 'Landing page and app for adding recipes and food schedules. ' +
             'Project created as part of Scrum Lab during 1 week sprint (two team members)',
-        'demoLink': 'https://github.com/MoNo258/CodersLab_WAR_SFE_S_149_ScrumLab-repo',
+        'demoLink': 'https://zen-tereshkova-6e5782.netlify.app/',
+        'notes': 'This app is DESKTOP only',
         'gitHubLink': 'https://github.com/MoNo258/CodersLab_WAR_SFE_S_149_ScrumLab-repo',
         'textarea': `  <h3 class='textarea__title'>
                                     This project uses:
@@ -183,7 +202,12 @@ export default [
                                          <i class="fas fa-location-arrow"></i>
                                         using WebStorm
                                     </li>
-                                </ul>`
+                                </ul>`,
+        'story': 'This app is a result of Scrum Lab module during Front-end course in Coders Lab IT School. ' +
+            'This project was realized together with the team . ' +
+            'We worked in Scrum methodology: we had 1 week (one sprint) to work on it. ' +
+            'Our team kept repository on GitHub and members worked on their tasks on separate, local branches. ' +
+            'After sprint was finished (starting from the moment when MoNo258\'s repo was created) project was developed by me.'
     },
     {
         'index': 5,
@@ -193,6 +217,7 @@ export default [
         'text': 'Potluck Party Planner is an app to be used with friends while organizing a party. ' +
             'This app will help you to agree on who brings what.',
         'demoLink': 'https://mono258.github.io/PPP-Potluck_Party_Planner',
+        'notes': 'This is RWD app',
         'gitHubLink': 'https://github.com/MoNo258/PPP-Potluck_Party_Planner',
         'textarea': `  <h3 class='textarea__title'>
                                     This project uses:
@@ -214,6 +239,9 @@ export default [
                                          <i class="fas fa-location-arrow"></i>
                                         Firebase realtime database
                                     </li>
-                                </ul>`
+                                </ul>`,
+        'story': 'This app was written based on tutorial prepared by Simon Bloom from \'CSS-TRICKS\'. ' +
+            'My main goal was to learn Firebase authentication (with Google) and Firebase realtime database. ' +
+            'Additionally I wanted to work on app created with create-react-app package.'
     },
 ];
