@@ -270,18 +270,22 @@ const Contact = ({id}) => {
                                     </div>
                                     <div className='row form__row'>
                                         <div className='col-12 form__col form__col--button'>
-                                            {(errorName || errorEmail || errorMssg || name === '' || email === '' || mssg === '')
-                                                ?
-                                                <button className="form__button btn btn-dark" disabled={true}>
-                                                    <RocketTag className='button__image'/>
-                                                    Send
-                                                </button>
-                                                :
-                                                <button type='submit' className="form__button btn btn-dark mb-2">
-                                                    <RocketTag className='button__image'/>
-                                                    Send
-                                                </button>
-                                            }
+                                            {/*{(errorName || errorEmail || errorMssg || name === '' || email === '' || mssg === '')*/}
+                                            {/*    ?*/}
+                                            {/*    <button className="form__button btn btn-dark" disabled={true}>*/}
+                                            {/*        <RocketTag className='button__image'/>*/}
+                                            {/*        Send*/}
+                                            {/*    </button>*/}
+                                            {/*    :*/}
+                                            {/*    <button type='submit' className="form__button btn btn-dark mb-2">*/}
+                                            {/*        <RocketTag className='button__image'/>*/}
+                                            {/*        Send*/}
+                                            {/*    </button>*/}
+                                            {/*}*/}
+                                            <button type='submit' className="form__button btn btn-dark mb-2"disabled={true}>
+                                                Contact form is not ready yet
+                                            </button>
+
                                         </div>
                                     </div>
                                 </form>
