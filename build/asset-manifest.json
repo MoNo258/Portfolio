@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.94da2948.chunk.css",
-    "main.js": "./static/js/main.a4ecf047.chunk.js",
-    "main.js.map": "./static/js/main.a4ecf047.chunk.js.map",
+    "main.css": "./static/css/main.90124d45.chunk.css",
+    "main.js": "./static/js/main.3f0fd6b9.chunk.js",
+    "main.js.map": "./static/js/main.3f0fd6b9.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.52e84b43.chunk.js": "./static/js/2.52e84b43.chunk.js",
-    "static/js/2.52e84b43.chunk.js.map": "./static/js/2.52e84b43.chunk.js.map",
+    "static/js/2.708cd9ad.chunk.js": "./static/js/2.708cd9ad.chunk.js",
+    "static/js/2.708cd9ad.chunk.js.map": "./static/js/2.708cd9ad.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.0642ab9a092374886c715475447f6d1c.js": "./precache-manifest.0642ab9a092374886c715475447f6d1c.js",
+    "precache-manifest.16ffb417e5268778edfaad2982248281.js": "./precache-manifest.16ffb417e5268778edfaad2982248281.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.94da2948.chunk.css.map": "./static/css/main.94da2948.chunk.css.map",
-    "static/js/2.52e84b43.chunk.js.LICENSE.txt": "./static/js/2.52e84b43.chunk.js.LICENSE.txt",
+    "static/css/main.90124d45.chunk.css.map": "./static/css/main.90124d45.chunk.css.map",
+    "static/js/2.708cd9ad.chunk.js.LICENSE.txt": "./static/js/2.708cd9ad.chunk.js.LICENSE.txt",
     "static/media/AboutMoNo258_small.jpg": "./static/media/AboutMoNo258_small.3f70a33b.jpg",
     "static/media/ChatA_alt.jpg": "./static/media/ChatA_alt.3de4602e.jpg",
     "static/media/ChatApp.JPG": "./static/media/ChatApp.001787b1.JPG",
     "static/media/ExRates_alt.jpg": "./static/media/ExRates_alt.f0956f58.jpg",
-    "static/media/PPP_alt.jpg": "./static/media/PPP_alt.ecafd5c2.jpg",
+    "static/media/PPP_alt.jpg": "./static/media/PPP_alt.ceda5022.jpg",
     "static/media/SBC_alt.jpg": "./static/media/SBC_alt.7d98dfe3.jpg",
     "static/media/ZJ_alt.jpg": "./static/media/ZJ_alt.b0bfc4f9.jpg",
     "static/media/attachment.e9964363.svg": "./static/media/attachment.e9964363.svg",
@@ -42,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.52e84b43.chunk.js",
-    "static/css/main.94da2948.chunk.css",
-    "static/js/main.a4ecf047.chunk.js"
+    "static/js/2.708cd9ad.chunk.js",
+    "static/css/main.90124d45.chunk.css",
+    "static/js/main.3f0fd6b9.chunk.js"
   ]
 }

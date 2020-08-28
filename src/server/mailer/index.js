@@ -1,5 +1,3 @@
-// import nodemailer from 'nodemailer';
-// import config from './config/index';
 const config = require('./config/index');
 const nodemailer = require('nodemailer');
 

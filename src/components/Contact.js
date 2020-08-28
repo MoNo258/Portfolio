@@ -97,7 +97,7 @@ const Contact = ({id}) => {
     return (
         <div className='contact container-fluid' id={id}>
             <div className='contact__wrapper container '>
-                <h4 className='contact__title h3 ' >
+                <h4 className='contact__title h3 '>
                     Found something interesting? Try me!
                 </h4>
                 <p className='contact__text h4'>
@@ -117,7 +117,8 @@ const Contact = ({id}) => {
                                     <CopyToClipboard text={copiedNameValue} onCopy={() => setCopiedName(true)}>
                                         <span>
                                             <BlackTag className='button__image'/>
-                                            {<>{copiedNameValue} <CopyTag className='button__image button__copyTag'/></>}
+                                            {<>{copiedNameValue} <CopyTag
+                                                className='button__image button__copyTag'/></>}
                                             {copiedName
                                                 ? <span className='error-info copy-info'> Copied to clipboard</span>
                                                 : null}
@@ -128,7 +129,8 @@ const Contact = ({id}) => {
                                     <CopyToClipboard text={copiedEmailValue} onCopy={() => setCopiedEmail(true)}>
                                         <span>
                                         <EnvelopeTag className='button__image'/>
-                                            {<>{copiedEmailValue} <CopyTag className='button__image button__copyTag'/></>}
+                                            {<>{copiedEmailValue} <CopyTag
+                                                className='button__image button__copyTag'/></>}
                                             {copiedEmail
                                                 ? <span className='error-info copy-info'> Copied to clipboard</span>
                                                 : null}
@@ -169,7 +171,7 @@ const Contact = ({id}) => {
                                 {/*}*/}
                                 <form className='contact__form form'
                                       onSubmit={handleSubmit}
-                                        method='POST' action='send'
+                                      method='POST' action='send'
                                 >
                                     <div className='form__group form-group'>
                                         <label htmlFor="name" className="form__label">Name</label>
@@ -239,8 +241,8 @@ const Contact = ({id}) => {
                                         {/*        <AttachTag className='button__image form__imageAttachment'/>*/}
                                         {/*    </div>*/}
                                         {/*</div>*/}
-                                        <label htmlFor="formAttachment"  className="form__label form__label--attachment"
-                                            style={{fontFamily: 'Anonymous Pro', fontStyle: 'italic'}}
+                                        <label htmlFor="formAttachment" className="form__label form__label--attachment"
+                                               style={{fontFamily: 'Anonymous Pro', fontStyle: 'italic'}}
                                         >
                                             I am still working on attachents to be available
                                         </label>

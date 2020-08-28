@@ -27,3 +27,4 @@ yarn-error.log*
 
 #secret
 /src/server/mailer/config/index.js
+test.js
