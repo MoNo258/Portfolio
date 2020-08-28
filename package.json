@@ -28,7 +28,8 @@
     "react-scroll": "^1.8.1"
   },
   "scripts": {
-    "start": "start npm run start:client && start npm run start:server",
+    "start": "node server.js",
+    "dev": "start npm run start:client && start npm run start:server",
     "start:client": "react-scripts start",
     "start:server": "node server.js",
     "build": "react-scripts build",
