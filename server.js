@@ -3,12 +3,19 @@ const mailer = require('./src/server/mailer');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const path = require('path');
+const publicPath = path.join(__dirname, '..', 'public');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(express.static(publicPath));
+
+// app.get('*', (req, res) => {
+//     res.send('Server is working.');
+// });
 
 app.get('*', (req, res) => {
-    res.send('Server is working.');
+    res.sendFile(path.join(publicPath, 'index.html'));
 });
 
 app.post('/send', (req, res) => {
