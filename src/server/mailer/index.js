@@ -1,41 +1,43 @@
 const nodemailer = require('nodemailer');
 
-// const config = require('./config/index');
-// let transporter = nodemailer.createTransport({
-//     host: 'smtp.gmail.com',
-//     port: 465,
-//     secure: true,
-//     auth: {
-//         type: 'OAuth2',
-//         user: process.env.REACT_APP_USER || config.user,
-//         clientId: process.env.REACT_APP_CLIENTID || config.clientId,
-//         clientSecret: process.env.REACT_APP_CLIENTSECRET || config.clientSecret,
-//         refreshToken: process.env.REACT_APP_REFRESHTOKEN || config.refreshToken,
-//         accessToken: process.env.REACT_APP_ACCESSTOKEN || config.accessToken,
-//         expires: 1484314697598
-//     },
-//     tls: {
-//         rejectUnauthorized: false
-//     }
-// });
-// for heroku:
+// this is for dev:
+const config = require('./config/index');
 let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 465,
     secure: true,
     auth: {
         type: 'OAuth2',
-        user: process.env.REACT_APP_USER,
-        clientId: process.env.REACT_APP_CLIENTID,
-        clientSecret: process.env.REACT_APP_CLIENTSECRET,
-        refreshToken: process.env.REACT_APP_REFRESHTOKEN,
-        accessToken: process.env.REACT_APP_ACCESSTOKEN,
+        user: process.env.REACT_APP_USER || config.user,
+        clientId: process.env.REACT_APP_CLIENTID || config.clientId,
+        clientSecret: process.env.REACT_APP_CLIENTSECRET || config.clientSecret,
+        refreshToken: process.env.REACT_APP_REFRESHTOKEN || config.refreshToken,
+        accessToken: process.env.REACT_APP_ACCESSTOKEN || config.accessToken,
         expires: 1484314697598
     },
     tls: {
         rejectUnauthorized: false
     }
 });
+
+// // this is for or heroku deploy:
+// let transporter = nodemailer.createTransport({
+//     host: 'smtp.gmail.com',
+//     port: 465,
+//     secure: true,
+//     auth: {
+//         type: 'OAuth2',
+//         user: process.env.REACT_APP_USER,
+//         clientId: process.env.REACT_APP_CLIENTID,
+//         clientSecret: process.env.REACT_APP_CLIENTSECRET,
+//         refreshToken: process.env.REACT_APP_REFRESHTOKEN,
+//         accessToken: process.env.REACT_APP_ACCESSTOKEN,
+//         expires: 1484314697598
+//     },
+//     tls: {
+//         rejectUnauthorized: false
+//     }
+// });
 
 const send = ({email, name, text}) => {
     const from = name && email ? `${name} <${email}>` : `${name || email}`;

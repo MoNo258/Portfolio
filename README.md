@@ -1,12 +1,11 @@
 # Portfolio
 
-This is Portfolio of MoNo258. You will find there most recent projects - all in one place together with needed links.<br />
+This is Portfolio of MoNo258. You will find there most recent projects - all in one place together with needed links.
 <br />
 *Designed and coded by MoNo258 :)* <br />
-`project still in progress (contact form)... `
 
 ## Link to demo:
-## [Portfolio](https://mono258.github.io/Portfolio)
+## [Portfolio](https://mono258-portfolio.herokuapp.com/)
 
 ![screenshot](https://github.com/MoNo258/Portfolio/raw/master/src/assets/Portfolio1.JPG "Portfolio screenshot 1")
 ![screenshot](https://github.com/MoNo258/Portfolio/raw/master/src/assets/Portfolio2.JPG "Portfolio screenshot 2")
@@ -19,6 +18,7 @@ This is Portfolio of MoNo258. You will find there most recent projects - all in 
 * Sass
 * Bootstrap
 * create-react-app (This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
+* Contact form created with Nodemailer (using Express server)
 * image used in banner taken from MoNo258's private collection 
 * svg icons made by Dave Gandy from [Flaticon](https://www.flaticon.com/)
 * original Wonder Woman jpg taken from [pixabay](https://cdn.pixabay.com/photo/2017/07/06/18/48/wonder-woman-2478971_960_720.jpg) and modified by MoNo258
