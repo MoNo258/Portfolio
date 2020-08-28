@@ -4,18 +4,26 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const path = require('path');
-const publicPath = path.join(__dirname, '..', 'public');
+// const publicPath = path.join(__dirname, 'public');
+const PORT = process.env.PORT || 4000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(express.static(publicPath));
+// app.use(express.static(publicPath));
+
+// app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 // app.get('*', (req, res) => {
 //     res.send('Server is working.');
 // });
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(publicPath, 'index.html'));
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(publicPath, '/index.html'));
+// });
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.post('/send', (req, res) => {
@@ -32,7 +40,6 @@ app.post('/send', (req, res) => {
         });
 });
 
-const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
