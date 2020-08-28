@@ -4,12 +4,14 @@
 @import "./partials/HeroHome";
 @import "./partials/ProjectsSection";
 @import "./partials/ProjectCard";
-@import "partials/AboutMe";
+@import "./partials/AboutMe";
 @import "./partials/Contact";
 @import "./partials/Footer";
 @import "./partials/Project";
 @import "./partials/ProjectCardDetails";
 @import "./partials/BackButton";
+@import "./partials/Success";
+@import "./partials/Error";
 
 body{
   font-family: $font-main;

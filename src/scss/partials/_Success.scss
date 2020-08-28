@@ -1,0 +1,20 @@
+@import "../settings/variables";
+@use "sass:color";
+
+.success{
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  .success-message {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: darken($color-set1-color, 10%);
+    margin-bottom: 15px;
+    p {
+      margin-bottom: 4px;
+    }
+  }
+}
