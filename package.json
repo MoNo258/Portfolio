@@ -29,9 +29,9 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "start npm run start:client && start npm run start:server",
-    "start:client": "react-scripts start",
-    "start:server": "node server.js",
+    "dev": "start npm run dev:client && start npm run dev:server",
+    "dev:client": "react-scripts start",
+    "dev:server": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
