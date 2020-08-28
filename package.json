@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
+  "main": "index.js",
   "description": "Portfolio of MoNo258",
   "author": "Monika Nowogórska AKA MoNo258",
   "dependencies": {

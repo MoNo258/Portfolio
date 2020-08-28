@@ -7,11 +7,11 @@ let transporter = nodemailer.createTransport({
     secure: true,
     auth: {
         type: 'OAuth2',
-        user: config.user || process.env.REACT_APP_USER,
-        clientId: config.clientId || process.env.REACT_APP_CLIENTID,
-        clientSecret: config.clientSecret || process.env.REACT_APP_CLIENTSECRET,
-        refreshToken: config.refreshToken || process.env.REACT_APP_REFRESHTOKEN,
-        accessToken: config.accessToken || process.env.REACT_APP_ACCESSTOKEN,
+        user: process.env.REACT_APP_USER || config.user,
+        clientId: process.env.REACT_APP_CLIENTID || config.clientId,
+        clientSecret: process.env.REACT_APP_CLIENTSECRET || config.clientSecret,
+        refreshToken: process.env.REACT_APP_REFRESHTOKEN || config.refreshToken,
+        accessToken: process.env.REACT_APP_ACCESSTOKEN || config.accessToken,
         expires: 1484314697598
     },
     tls: {
