@@ -1,4 +1,4 @@
-require('babel-polyfill');
+// require('babel-polyfill');
 const mailer = require('./src/server/mailer');
 const express = require('express');
 const bodyParser = require('body-parser');
