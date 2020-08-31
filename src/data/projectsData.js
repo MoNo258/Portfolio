@@ -8,6 +8,8 @@ import projectScrum from '../assets/zaplanuj_jedzonko.JPG';
 import projectScrum_Alt from '../assets/ZJ_alt.jpg';
 import projectPPP from '../assets/potluck_party_planner.JPG';
 import projectPPP_Alt from '../assets/PPP_alt.jpg';
+import projectPortfolio from '../assets/portfolio-main.JPG';
+import projectPortfolio_Alt from '../assets/portfolio1-alt.jpg';
 
 export default [
     {
@@ -243,5 +245,61 @@ export default [
         'story': 'This app was written based on tutorial prepared by Simon Bloom from \'CSS-TRICKS\'. ' +
             'My main goal was to learn Firebase authentication (with Google) and Firebase realtime database. ' +
             'Additionally I wanted to work on app created with create-react-app package.'
+    },
+    {
+        'index': 6,
+        'image': projectPortfolio,
+        'imageAlt': projectPortfolio_Alt,
+        'title': 'Portfolio',
+        'text': 'This is Portfolio of MoNo258. You will find here most recent projects - all in one place together with needed links + contact information',
+        'demoLink': 'https://mono258-portfolio.herokuapp.com/',
+        'notes': 'This is RWD app',
+        'exampleLogin': null,
+        'gitHubLink': 'https://github.com/MoNo258/Portfolio',
+        'textarea': `  <h3 class='textarea__title'>
+                                    This project uses:
+                                </h3>
+                                <ul class='textarea__list' >
+                                    <li class='textarea__item' >
+                                        <i class="fas fa-location-arrow"></i>
+                                        JavaScript ES6
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        React.js, React Router
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        CSS and Sass
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Bootstrap
+                                    </li>
+                                    <li class='textarea__item' >
+                                        <i class="fas fa-location-arrow"></i>
+                                        create-react-app (This project was bootstrapped with Create React App.)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        Contact form created with Nodemailer (using Express server)
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        image used in banner taken from MoNo258's private collection
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        svg icons made by Dave Gandy from Flaticon
+                                    </li>
+                                    <li class='textarea__item'>
+                                         <i class="fas fa-location-arrow"></i>
+                                        original Wonder Woman jpg taken from Pixabay and modified by MoNo258
+                                    </li>
+                                </ul>`,
+        'story': 'This project contains all information and links that might be needed to check out my work/knowledge ' +
+            'and to understand what I am capable of. You can easily navigate to my LinkedIn and GitHub profiles ' +
+            'to see more details about my experience. If you find my projects interesting, ' +
+            'you can contact me via e-mail or contact form.'
     },
 ];
