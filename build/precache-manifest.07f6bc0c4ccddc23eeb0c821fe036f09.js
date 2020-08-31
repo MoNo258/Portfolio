@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b04698f602c0084ad6cf8fb60193c7b2",
+    "revision": "114f9efc45e2a2760ac942da3de60a97",
     "url": "./index.html"
   },
   {
-    "revision": "819d4116c5b3b9efce0a",
-    "url": "./static/css/main.af3be2de.chunk.css"
+    "revision": "b6674221270ad7b016dd",
+    "url": "./static/css/main.90124d45.chunk.css"
   },
   {
-    "revision": "201525ded509c6fdf67c",
-    "url": "./static/js/2.3776f06c.chunk.js"
+    "revision": "7887889eb8bd18ab21ed",
+    "url": "./static/js/2.fb123678.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "./static/js/2.3776f06c.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.fb123678.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "819d4116c5b3b9efce0a",
-    "url": "./static/js/main.f5296f83.chunk.js"
+    "revision": "b6674221270ad7b016dd",
+    "url": "./static/js/main.6d4b432a.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ChatApp.001787b1.JPG"
   },
   {
-    "revision": "f0956f5847d74803ed082d699d9bd2bf",
-    "url": "./static/media/ExRates_alt.f0956f58.jpg"
+    "revision": "665a75f68105876814eae0cd8340e891",
+    "url": "./static/media/ExRates_alt.665a75f6.jpg"
   },
   {
     "revision": "ceda5022d064ccf6cd440cb4608abe6f",
@@ -110,6 +110,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "006efebf673ff14f9ac930002f55b676",
     "url": "./static/media/paperPushPin.006efebf.svg"
+  },
+  {
+    "revision": "aa67d544c7358c2093378ba5844deda2",
+    "url": "./static/media/portfolio-main.aa67d544.JPG"
+  },
+  {
+    "revision": "aaa0f3e14418418fc9a18d0beac0650e",
+    "url": "./static/media/portfolio1-alt.aaa0f3e1.jpg"
   },
   {
     "revision": "37bf4a5dda3edd72450cfa0fde38a78d",

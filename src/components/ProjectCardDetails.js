@@ -1,9 +1,9 @@
 import React from "react";
-import {ReactComponent as RocketTag} from '../assets/rocket.svg';
-import {ReactComponent as GitHubTag} from '../assets/github.svg';
-import {ReactComponent as FileTag} from '../assets/file.svg';
-import {ReactComponent as KeyTag} from "../assets/key.svg";
-import {ReactComponent as BulbTag} from "../assets/bulb.svg";
+import { ReactComponent as RocketTag } from '../assets/rocket.svg';
+import { ReactComponent as GitHubTag } from '../assets/github.svg';
+import { ReactComponent as FileTag } from '../assets/file.svg';
+import { ReactComponent as KeyTag } from "../assets/key.svg";
+import { ReactComponent as BulbTag } from "../assets/bulb.svg";
 
 const ProjectCardDetails = ({id, image, title, text, textarea, demoLink, gitHubLink, notes, exampleLogin, story}) => {
 

@@ -1,6 +1,6 @@
 import React from "react";
-import {ReactComponent as ArrowTag} from '../assets/leftArrow.svg';
-import {HashLink as Link} from 'react-router-hash-link';
+import { ReactComponent as ArrowTag } from '../assets/leftArrow.svg';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const BackButton = () => {

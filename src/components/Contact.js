@@ -1,11 +1,11 @@
-import React, {useEffect, useState} from 'react';
-import {ReactComponent as RocketTag} from '../assets/rocket.svg';
-import {ReactComponent as EnvelopeTag} from '../assets/envelope.svg';
-import {ReactComponent as BlackTag} from "../assets/blackTag.svg";
-import {ReactComponent as AttachTag} from "../assets/attachment.svg";
-import {ReactComponent as LinkedInTag} from '../assets/linkedin.svg';
-import {ReactComponent as CopyTag} from '../assets/copy.svg';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import React, { useEffect, useState } from 'react';
+import { ReactComponent as RocketTag } from '../assets/rocket.svg';
+import { ReactComponent as EnvelopeTag } from '../assets/envelope.svg';
+import { ReactComponent as BlackTag } from "../assets/blackTag.svg";
+import { ReactComponent as AttachTag } from "../assets/attachment.svg";
+import { ReactComponent as LinkedInTag } from '../assets/linkedin.svg';
+import { ReactComponent as CopyTag } from '../assets/copy.svg';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const Contact = ({id}) => {
     const [name, setName] = useState('');

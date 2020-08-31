@@ -1,6 +1,6 @@
 import React from "react";
-import {ReactComponent as LinkedInTag} from '../assets/linkedin.svg';
-import {ReactComponent as GitHubTag} from '../assets/github.svg';
+import { ReactComponent as LinkedInTag } from '../assets/linkedin.svg';
+import { ReactComponent as GitHubTag } from '../assets/github.svg';
 
 const Footer = () => {
     return (

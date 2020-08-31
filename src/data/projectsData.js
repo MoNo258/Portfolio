@@ -300,6 +300,7 @@ export default [
         'story': 'This project contains all information and links that might be needed to check out my work/knowledge ' +
             'and to understand what I am capable of. You can easily navigate to my LinkedIn and GitHub profiles ' +
             'to see more details about my experience. If you find my projects interesting, ' +
-            'you can contact me via e-mail or contact form.'
+            'you can contact me via e-mail or contact form. ' +
+            'App designed and coded by myself :)'
     },
 ];

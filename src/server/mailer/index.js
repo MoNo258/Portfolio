@@ -19,7 +19,7 @@ const nodemailer = require('nodemailer');
 //         rejectUnauthorized: false
 //     }
 // });
-// // end of problematic part
+// // end of problematic part for heroku
 
 // this is for heroku deploy:
 let transporter = nodemailer.createTransport({

@@ -1,9 +1,9 @@
 import React from 'react';
 import picture from '../assets/AboutMoNo258_small.jpg'
-import {ReactComponent as CursorTag} from "../assets/cursor.svg";
-import {ReactComponent as PinTag} from "../assets/paperPushPin.svg";
-import {ReactComponent as CircleDotTag} from "../assets/dotCircle.svg";
-import {ReactComponent as CheckedTag} from "../assets/checkedSymbol.svg";
+import { ReactComponent as CursorTag } from "../assets/cursor.svg";
+import { ReactComponent as PinTag } from "../assets/paperPushPin.svg";
+import { ReactComponent as CircleDotTag } from "../assets/dotCircle.svg";
+import { ReactComponent as CheckedTag } from "../assets/checkedSymbol.svg";
 
 const AboutMe = ({id}) => {
 

@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Link as LinkScroll} from 'react-scroll';
+import React, { useState } from "react";
+import { Link as LinkScroll } from 'react-scroll';
 import { HashLink as Link } from 'react-router-hash-link';
 import classNames from 'classnames';
 

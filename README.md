@@ -41,7 +41,10 @@ In the project directory, you can run:
 ##### `npm run dev`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will open app on localhost 3000 but only with front-end part working. But since app contains back-end part (contact form), you must use localhost 4001 to check this functionality.<br />
+*NOTE:* You must have builded app in `build` folder to run it correctly on 4001. If not downloaded yet just run build process for the app (see `npm run build`).<br />
+Open [http://localhost:3000](http://localhost:3000) to view app in the browser (w/o working Contact Form).<br />
+Open [http://localhost:4001](http://localhost:4001) to also check Contact Form functionality.<br />
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.

@@ -1,6 +1,6 @@
 import React from "react";
 import heroBackground from '../assets/tree_fog.jpg';
-import {Link as LinkScroll} from 'react-scroll'
+import { Link as LinkScroll } from 'react-scroll'
 
 const HeroHome = ({id}) => {
 

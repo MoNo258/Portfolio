@@ -2,7 +2,7 @@ import React from "react";
 import HeaderProject from "./HeaderProject";
 import Footer from "./Footer";
 import ProjectCardDetails from "./ProjectCardDetails";
-import {useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import projectsData from "../data/projectsData";
 import BackButton from "./BackButton";
 

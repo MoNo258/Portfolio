@@ -1,10 +1,10 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import { HashLink as HLink} from 'react-router-hash-link';
-import {ReactComponent as RocketTag} from '../assets/rocket.svg';
-import {ReactComponent as BlackTag} from '../assets/blackTag.svg';
-import {ReactComponent as GitHubTag} from '../assets/github.svg';
-import {ReactComponent as BulbTag} from "../assets/bulb.svg";
+import { Link } from "react-router-dom";
+import { HashLink as HLink } from 'react-router-hash-link';
+import { ReactComponent as RocketTag } from '../assets/rocket.svg';
+import { ReactComponent as BlackTag } from '../assets/blackTag.svg';
+import { ReactComponent as GitHubTag } from '../assets/github.svg';
+import { ReactComponent as BulbTag } from "../assets/bulb.svg";
 import projectsData from "../data/projectsData";
 
 
