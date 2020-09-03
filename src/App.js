@@ -1,6 +1,6 @@
 import React from 'react';
 import './scss/main.scss';
-import {HashRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Success from "./components/Success";

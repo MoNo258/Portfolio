@@ -15,7 +15,7 @@ const HeroHome = ({id}) => {
         <div className='heroHome' id={id} style={styleBackground}>
             <div className='hero__container'>
                 <h1 className='hero__header'>
-                    <span>Hi :)</span>
+                    <span>Hi, my name is Monika :)</span>
                     <span>I am a Junior Web Developer</span>
                 </h1>
                 <div className='hero__button'>

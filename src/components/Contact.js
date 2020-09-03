@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { ReactComponent as RocketTag } from '../assets/rocket.svg';
-import { ReactComponent as EnvelopeTag } from '../assets/envelope.svg';
-import { ReactComponent as BlackTag } from "../assets/blackTag.svg";
-import { ReactComponent as AttachTag } from "../assets/attachment.svg";
-import { ReactComponent as LinkedInTag } from '../assets/linkedin.svg';
-import { ReactComponent as CopyTag } from '../assets/copy.svg';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import React, {useEffect, useState} from 'react';
+import {ReactComponent as RocketTag} from '../assets/rocket.svg';
+import {ReactComponent as EnvelopeTag} from '../assets/envelope.svg';
+import {ReactComponent as BlackTag} from "../assets/blackTag.svg";
+import {ReactComponent as AttachTag} from "../assets/attachment.svg";
+import {ReactComponent as LinkedInTag} from '../assets/linkedin.svg';
+import {ReactComponent as CopyTag} from '../assets/copy.svg';
+import {ReactComponent as GitHubTag} from '../assets/github.svg';
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Contact = ({id}) => {
     const [name, setName] = useState('');
@@ -22,8 +23,6 @@ const Contact = ({id}) => {
     const [statusSuccess, setStatusSuccess] = useState(null);
     const [statusError, setStatusError] = useState(null);
 
-    const [copiedNameValue] = useState('Monika Nowogórska');
-    const [copiedName, setCopiedName] = useState(false);
     const [copiedEmailValue] = useState('monika258@gmail.com');
     const [copiedEmail, setCopiedEmail] = useState(false);
     const [attachmentName, setAttachmentName] = useState('Choose a file');
@@ -35,7 +34,6 @@ const Contact = ({id}) => {
 
     const sendForm = () => {
         if (window.location.hash === '#/success') {
-            // console.log(data.status);
             setStatusSuccess(true);
             setName('');
             setEmail('');
@@ -48,10 +46,6 @@ const Contact = ({id}) => {
         } else if (window.location.hash === '#/error') {
             setStatusError(`Error while sending message. Try again.`);
         }
-        // setTimeout(() => {
-        //     setStatusSuccess(null);
-        //     setStatusError(null);
-        // }, 7000);
     };
 
     useEffect(() => {
@@ -84,7 +78,6 @@ const Contact = ({id}) => {
 
     const handleCopyMssg = () => {
         setTimeout(() => {
-            setCopiedName(false);
             setCopiedEmail(false);
         }, 2500);
     };
@@ -107,23 +100,15 @@ const Contact = ({id}) => {
                     <div className='contact__col col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                         <div className='contact__card contact__card--left card'>
                             <div className="card__header card-header">
-                                Contact me via e-mail or LinkedIn
+                                {/*Contact me via e-mail or LinkedIn*/}
                             </div>
                             <div className='card__body card__body--left card-body'>
                                 <h5 className='card__title card-title'>
                                     Details to be used:
                                 </h5>
                                 <p className='card__text card-text' onClick={handleCopyMssg}>
-                                    <CopyToClipboard text={copiedNameValue} onCopy={() => setCopiedName(true)}>
-                                        <span>
-                                            <BlackTag className='button__image'/>
-                                            {<>{copiedNameValue} <CopyTag
-                                                className='button__image button__copyTag'/></>}
-                                            {copiedName
-                                                ? <span className='error-info copy-info'> Copied to clipboard</span>
-                                                : null}
-                                        </span>
-                                    </CopyToClipboard>
+                                    <BlackTag className='button__image'/>
+                                    Monika Nowogórska
                                 </p>
                                 <p className='card__text card-text' onClick={handleCopyMssg}>
                                     <CopyToClipboard text={copiedEmailValue} onCopy={() => setCopiedEmail(true)}>
@@ -147,28 +132,28 @@ const Contact = ({id}) => {
                                         </a>
                                     </li>
                                 </p>
+                                <p className='card__text card-text'>
+                                    <li className='card__link'>
+                                        <GitHubTag className='button__image'/>
+                                        <a target='_blank' rel='noopener noreferrer'
+                                           href='https://github.com/MoNo258/'
+                                           className='card__link-href'>
+                                            GitHub profile
+                                        </a>
+                                    </li>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div className='contact__col col-xl-6 col-lg-6 col-md-12 col-sm-12'>
                         <div className='contact__card contact__card--right card'>
                             <div className="card__header card-header">
-                                Contact me via contact form
+                                {/*Contact me via contact form*/}
                             </div>
                             <div className='card__body card__body--right card-body'>
                                 <h5 className='card__title card-title'>
                                     Use embedded contact form:
                                 </h5>
-                                {/*{statusSuccess*/}
-                                {/*    ?*/}
-                                {/*    <Success id='success' />*/}
-                                {/*    :*/}
-                                {/*    statusError*/}
-                                {/*        ?*/}
-                                {/*        <Error id='error' />*/}
-                                {/*        :*/}
-                                {/*        <div className='empty-div--success'></div>*/}
-                                {/*}*/}
                                 <form className='contact__form form'
                                       onSubmit={handleSubmit}
                                       method='POST' action='send'
@@ -262,10 +247,6 @@ const Contact = ({id}) => {
                                                     Send
                                                 </button>
                                             }
-                                            {/*<button type='submit' className="form__button btn btn-dark mb-2"disabled={true}>*/}
-                                            {/*    Contact form is not ready yet*/}
-                                            {/*</button>*/}
-
                                         </div>
                                     </div>
                                 </form>

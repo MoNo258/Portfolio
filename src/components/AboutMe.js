@@ -29,10 +29,15 @@ const AboutMe = ({id}) => {
                                             <PinTag className='cardAM__tag'/>
                                             My name is Monika
                                         </h5>
+                                        {/*<p className='card__text card-text'>*/}
+                                        {/*    I am an analyst with 10 years experience*/}
+                                        {/*    aspiring for changing profession to Front-end Developer*/}
+                                        {/*    (and, in coming years, Full-Stack Developer).*/}
+                                        {/*    I am Junior Front-end Developer*/}
+                                        {/*</p>*/}
                                         <p className='card__text card-text'>
-                                            I am an analyst with 10 years experience
-                                            aspiring for changing profession to Front-end Developer
-                                            (and, in coming years, Full-Stack Developer).
+                                            I am Junior Front-end Developer with 10 years experience as an analyst.
+                                            In coming years (long-term plan) I would like to became a Full-Stack Developer.
                                         </p>
                                         <div className='card__listContainer'>
                                             <h3 className='card__listTitle'>

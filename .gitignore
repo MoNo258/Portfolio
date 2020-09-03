@@ -28,3 +28,4 @@ yarn-error.log*
 #secret
 /src/server/mailer/config/index.js
 test.js
+src/data/projectData_longer.js

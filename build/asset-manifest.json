@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.90124d45.chunk.css",
-    "main.js": "./static/js/main.6d4b432a.chunk.js",
-    "main.js.map": "./static/js/main.6d4b432a.chunk.js.map",
+    "main.css": "./static/css/main.12e747c3.chunk.css",
+    "main.js": "./static/js/main.9aabcc2a.chunk.js",
+    "main.js.map": "./static/js/main.9aabcc2a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.916853f0.js",
     "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
-    "static/js/2.fb123678.chunk.js": "./static/js/2.fb123678.chunk.js",
-    "static/js/2.fb123678.chunk.js.map": "./static/js/2.fb123678.chunk.js.map",
+    "static/js/2.32208109.chunk.js": "./static/js/2.32208109.chunk.js",
+    "static/js/2.32208109.chunk.js.map": "./static/js/2.32208109.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.07f6bc0c4ccddc23eeb0c821fe036f09.js": "./precache-manifest.07f6bc0c4ccddc23eeb0c821fe036f09.js",
+    "precache-manifest.fdf6d7c7584c91a39e08d62caa6800f4.js": "./precache-manifest.fdf6d7c7584c91a39e08d62caa6800f4.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.90124d45.chunk.css.map": "./static/css/main.90124d45.chunk.css.map",
-    "static/js/2.fb123678.chunk.js.LICENSE.txt": "./static/js/2.fb123678.chunk.js.LICENSE.txt",
+    "static/css/main.12e747c3.chunk.css.map": "./static/css/main.12e747c3.chunk.css.map",
+    "static/js/2.32208109.chunk.js.LICENSE.txt": "./static/js/2.32208109.chunk.js.LICENSE.txt",
     "static/media/AboutMoNo258_small.jpg": "./static/media/AboutMoNo258_small.3f70a33b.jpg",
     "static/media/ChatA_alt.jpg": "./static/media/ChatA_alt.3de4602e.jpg",
     "static/media/ChatApp.JPG": "./static/media/ChatApp.001787b1.JPG",
@@ -34,8 +34,6 @@
     "static/media/leftArrow.f7a7ddf8.svg": "./static/media/leftArrow.f7a7ddf8.svg",
     "static/media/linkedin.154629f2.svg": "./static/media/linkedin.154629f2.svg",
     "static/media/paperPushPin.006efebf.svg": "./static/media/paperPushPin.006efebf.svg",
-    "static/media/portfolio-main.JPG": "./static/media/portfolio-main.aa67d544.JPG",
-    "static/media/portfolio1-alt.jpg": "./static/media/portfolio1-alt.aaa0f3e1.jpg",
     "static/media/potluck_party_planner.JPG": "./static/media/potluck_party_planner.37bf4a5d.JPG",
     "static/media/rocket.2db67cdc.svg": "./static/media/rocket.2db67cdc.svg",
     "static/media/share_because_you_care.JPG": "./static/media/share_because_you_care.e24efa9c.JPG",
@@ -44,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.916853f0.js",
-    "static/js/2.fb123678.chunk.js",
-    "static/css/main.90124d45.chunk.css",
-    "static/js/main.6d4b432a.chunk.js"
+    "static/js/2.32208109.chunk.js",
+    "static/css/main.12e747c3.chunk.css",
+    "static/js/main.9aabcc2a.chunk.js"
   ]
 }
