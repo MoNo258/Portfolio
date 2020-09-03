@@ -37,7 +37,7 @@ const AboutMe = ({id}) => {
                                         {/*</p>*/}
                                         <p className='card__text card-text'>
                                             I am Junior Front-end Developer with 10 years experience as an analyst.
-                                            In coming years (long-term plan) I would like to became a Full-Stack Developer.
+                                            In coming years (long-term plan) I would like to become a Full-Stack Developer.
                                         </p>
                                         <div className='card__listContainer'>
                                             <h3 className='card__listTitle'>
