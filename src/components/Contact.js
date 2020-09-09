@@ -229,7 +229,7 @@ const Contact = ({id}) => {
                                         <label htmlFor="formAttachment" className="form__label form__label--attachment"
                                                style={{fontFamily: 'Anonymous Pro', fontStyle: 'italic'}}
                                         >
-                                            I am still working on attachents to be available
+                                            I am still working on attachments to be available
                                         </label>
 
                                     </div>

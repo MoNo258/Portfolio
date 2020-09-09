@@ -36,7 +36,7 @@ const AboutMe = ({id}) => {
                                         {/*    I am Junior Front-end Developer*/}
                                         {/*</p>*/}
                                         <p className='card__text card-text'>
-                                            I am Junior Front-end Developer with 10 years experience as an analyst.
+                                            I am Junior Front-end Developer with 10 years of experience as an analyst.
                                             In coming years (long-term plan) I would like to become a Full-Stack Developer.
                                         </p>
                                         <div className='card__listContainer'>

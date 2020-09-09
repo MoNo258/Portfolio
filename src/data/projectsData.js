@@ -72,7 +72,7 @@ export default [
         'imageAlt': projectShare_Alt,
         'title': 'Share because you care',
         'text': 'Landing page with contact form. ' +
-            'After login user have ' +
+            'A logged in user has ' +
             'possibility to fill in few steps form to give the things away.',
         'demoLink': 'https://mono258.github.io/Share_because_you_care',
         'notes': 'This is RWD app',
@@ -157,7 +157,7 @@ export default [
         'imageAlt': projectScrum_Alt,
         'title': 'Plan your eating behaviors',
         'text': 'Landing page and app for adding recipes and food schedules. ' +
-            'Project created as part of Scrum Lab during 1 week sprint (two team members)',
+            'Project created as a part of Scrum Lab during 1 week sprint (two team members)',
         'demoLink': 'https://zen-tereshkova-6e5782.netlify.app/',
         'notes': 'This app is DESKTOP only',
         'gitHubLink': 'https://github.com/MoNo258/CodersLab_WAR_SFE_S_149_ScrumLab-repo',
@@ -204,10 +204,10 @@ export default [
                                     </li>
                                 </ul>`,
         'story': 'This app is a result of Scrum Lab module during Front-end course in Coders Lab IT School. ' +
-            'This project was realized together with the team . ' +
+            'This project was realized together with the team. ' +
             'We worked in Scrum methodology: we had 1 week (one sprint) to work on it. ' +
             'Our team kept repository on GitHub and members worked on their tasks on separate, local branches. ' +
-            'After sprint was finished (starting from the moment when MoNo258\'s repo was created) project was developed by me.'
+            'After the sprint was finished (starting from the moment when MoNo258\'s repo was created) the project was developed by me.'
     },
     {
         'index': 5,
