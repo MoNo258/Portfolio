@@ -1,6 +1,6 @@
 # Portfolio
 
-This is Portfolio of MoNo258. You will find there most recent projects - all in one place together with needed links.
+This is Portfolio of MoNo258. You will find most recent projects there - all in one place together with needed links and a contact form.
 <br />
 *Designed and coded by MoNo258 :)* <br />
 
