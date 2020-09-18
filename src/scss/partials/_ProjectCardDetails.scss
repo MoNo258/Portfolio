@@ -16,6 +16,7 @@
   .project__cardCD {
     margin: 10px;
     background-color: lighten($color-set1-light, 10%);
+    background-color: $color-set1-lighter;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -74,6 +75,7 @@
     background: $color-set1-dark;
     border-color: $color-set1-dark;
     color: lighten($color-set1-light, 20%);
+    color: $color-set1-lighter;
     display: flex;
     justify-content: center;
     align-items: center;

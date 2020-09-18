@@ -15,7 +15,7 @@
     font-size: 25px;
     background: linear-gradient(to right,
             $color-set1-color,
-            darken($color-set1-color, 10%));
+            lighten($color-set1-color, 10%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     &:hover{

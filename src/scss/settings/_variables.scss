@@ -1,10 +1,39 @@
+@use 'sass:color';
+
+//ORG GREEN SET
 $color-set1-dark: #333333;
 $color-set1-light: #AEAEAE;
+$color-set1-lighter: lighten($color-set1-light, 10%);
 $color-set1-color: #309638;
-//$color-set-extra-whiteish: #FFFFFF;
-//$color-set-extra-greyish: #9A9FA3;
-//$color-set-extra-violetish: #6D4C67;
-//$color-set-extra-plumish: #403F4D;
+
+
+  //$color-set-extra-whiteish: #FFFFFF;
+  //$color-set-extra-greyish: #9A9FA3;
+  //$color-set-extra-violetish: #6D4C67;
+  //$color-set-extra-plumish: #403F4D;
+
+
+
+////ORANGE SET
+//$color-set1-dark: darken( #443F3D,10%);
+//$color-set1-light: #FBF5EA;
+//$color-set1-light: darken(#FBF5EA, 5%);
+//$color-set1-lighter: lighten($color-set1-light, 10%);
+//$color-set1-color: #FF6740;
+
+////GREENISH SET
+//$color-set1-dark: darken( #069FA4,10%);
+//$color-set1-light: #FFFFFF;
+//$color-set1-lighter: darken($color-set1-light, 10%);
+//$color-set1-color: #069FA4;
+
+////GREENISH SET 2
+//$color-set1-dark: #04555C;
+//$color-set1-light: #E8EAEC;
+//$color-set1-lighter: lighten($color-set1-light, 10%);
+//$color-set1-color: #3E6A71;
+
+
 
 $font-main: 'Poppins', sans-serif;
 $font-alternative: 'Anonymous Pro', monospace;

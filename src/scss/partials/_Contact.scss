@@ -5,6 +5,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: lighten($color-set1-light, 10%);
+  background-color: $color-set1-lighter;
   .contact__wrapper {}
   .contact__title {
     text-align: center;
@@ -93,6 +94,7 @@
   .form__group {
     .form__control.form-control {
       background-color: lighten($color-set1-light, 10%);
+      background-color: $color-set1-lighter;
       color: $color-set1-dark;
       border: 1px solid transparent;
       outline: none;
@@ -100,7 +102,7 @@
         box-shadow: 0 0 0 1px lighten($color-set1-color, 10%);
       }
       &::placeholder {
-        color: lighten($color-set1-dark, 40%);
+        color: lighten($color-set1-dark, 15%);
       }
     }
   }
@@ -175,6 +177,7 @@
     background: $color-set1-dark;
     border-color: $color-set1-dark;
     color: lighten($color-set1-light, 20%);
+    color: $color-set1-lighter;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +191,7 @@
     }
     &:disabled:hover {
       color: lighten($color-set1-light, 20%);
+      color: $color-set1-lighter;
       background: $color-set1-dark;
       cursor: not-allowed;
       .button__image {
@@ -197,6 +201,7 @@
   }
   .form__control-fileNew {
     background-color: lighten($color-set1-light, 10%);
+    background-color: $color-set1-lighter;
     color: $color-set1-dark;
     border: 1px solid transparent;
   }
